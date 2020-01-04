@@ -1,15 +1,1100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-24T22:45:05-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ENIAC’s Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">欢迎来到我的博客！Welcome to My Blog!</title><link href="http://localhost:4000/others/2019/02/24/first-post.html" rel="alternate" type="text/html" title="欢迎来到我的博客！Welcome to My Blog!" /><published>2019-02-24T22:15:00-05:00</published><updated>2019-02-24T22:15:00-05:00</updated><id>http://localhost:4000/others/2019/02/24/first-post</id><content type="html" xml:base="http://localhost:4000/others/2019/02/24/first-post.html">&lt;p&gt;一直在犹豫说想开自己的技术及科研博客，主要有两个目的，一是想自己整理一下做科研做实验的时候遇到的问题，梳理一下知识结构，我想这个对于正在读博士的我是个特别有必要的事情。第二是希望借助互联网这个平台能和其他人进行分享，我从小在互联网上学到了很多很多东西，也确实应该为互联网贡献一些自己的知识。不敢说自己的知识很多，但是就我自己所能去分享一些东西，得到一些反馈或是能结识一些对问题感兴趣的朋友，也是非常令人兴奋的。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-05T22:06:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ENIAC’s Blog</title><subtitle>一个热爱探讨人文话题、计算机专业并希望从事教育行业的修行者。</subtitle><entry><title type="html">数据结构-讲义与复习提纲1</title><link href="http://localhost:4000/others/2019/11/04/data-structures-part1.html" rel="alternate" type="text/html" title="数据结构-讲义与复习提纲1" /><published>2019-11-04T19:29:00-05:00</published><updated>2019-11-04T19:29:00-05:00</updated><id>http://localhost:4000/others/2019/11/04/data-structures-part1</id><content type="html" xml:base="http://localhost:4000/others/2019/11/04/data-structures-part1.html">&lt;h2 id=&quot;数据结构&quot;&gt;数据结构&lt;/h2&gt;
 
-&lt;p&gt;我到此刻都还没有决定好的事情，就是我不知道应该拿中文写还是拿英文写。原因就是有很多计算机领域的词汇可能用中文有点别扭，直译虽然简单粗暴，但可能和它的本意有点区别。意译又不一定能被人认可，大家可能并不知道你在说什么。如果中英文夹杂，可能国内有些朋友看上去也觉得怪怪的。但思前想后，我还是决定用中英文夹杂的形式来写，如果我觉得这个地方确实是必须要用英文来写，我就会用英文，我也建议一些国内的朋友用英文去代指某个方法或是某个技术。计算机本身就是个舶来品，一个语言本身其实限定了一定的思维模式，所以用它本来的语言去叙述一定是最贴近发明它的人的本意的，只有理解了这些本意，才能更好地去理解技术背后的思想和逻辑，从而做出自己的突破和贡献。&lt;/p&gt;
+&lt;p&gt;首先要弄明白的一个问题是，为什么我们需要数据结构和算法？&lt;/p&gt;
 
-&lt;p&gt;很多留学生一定非常能理解我在说什么。&lt;/p&gt;
+&lt;p&gt;其实在计算机的内存当中，数据的存放是线性的。也就是说，地址从小到大依次增大，数据就是简单地沿着一个方向依次排列，这样说，所谓的&lt;strong&gt;数据结构&lt;/strong&gt;其实只有一种，就是「线性」存储。我们把这种内存中真正存放的方式叫作&lt;strong&gt;物理数据结构&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;p&gt;我举两个很简单的例子，两个词，一个是&lt;em&gt;presentation&lt;/em&gt;，一个是&lt;em&gt;orientation&lt;/em&gt;，这两个词应该如何向你的父母还有不懂英文的人解释呢？&lt;em&gt;presentation&lt;/em&gt;原义就是呈现，展示，一般就是指用幻灯片去讲解课程或是汇报工作，汇报项目进度等等，所以在国内可能会直接用“讲PPT”来表示。&lt;em&gt;orientation&lt;/em&gt;是很多留学生刚到国外要参加的一个活动，但可能很大程度上就是对新生的一种培训，国内大学可能会叫作“迎新会”，但“迎新会”在中文语境下可能有太多庆祝性质的东西在里面，也不能很好地表达这个意思，因为&lt;em&gt;orient-&lt;/em&gt;本身也有指向性的意思，所以本质上是一种对新生引导性质的活动。我说这两个例子也是想为很多留学生做一个辩解，我们回国之后有时候中英文夹杂&lt;strong&gt;真的&lt;/strong&gt;不是为了装逼，而是确实翻译起来要做到“信、达、雅”不是一件容易的事情。&lt;/p&gt;
+&lt;p&gt;问题就是，我们对数据的四种基本操作：增加、删除、查找、更改，也即增、删、改、查，如果全部都是按照线性的方式去存效率低下，在一些有着特定的应用中，算法复杂度会很高。所以人们根据相邻存放的两个数据之间对应关系的不同，又引申出了&lt;strong&gt;逻辑数据结构&lt;/strong&gt;的概念。那么，相邻存放的两个数据之间究竟有哪几种对应关系呢？答案是三种，1-1，1-m，m-n。就是我们平时说的「1对1」，「1对多」，和「多对多」。大体上来说，总共就是这三种数据结构。具体来说，他们分别指的是「线性表」、「树」和「图」。所谓的「1对多」指的是每一个数据的后面有多个数据和它相邻。其实在我们的现实世界中，所有人与人或者人与物之间的关系都可以化成这三种。像「一夫一妻」、「一夫多妻」说的就是这样的关系。&lt;/p&gt;
 
-&lt;p&gt;最后，希望看到博客的朋友们如果有兴趣与我交流，或是我写的内容有问题、有差错乃至有异议，欢迎大家给我写email：eniacsimon@gmail.com。谢谢！&lt;/p&gt;
+&lt;p&gt;我们学习数据结构，一方面要学习的是它的逻辑数据结构，另一方面是要学习同这套结构相适应的算法，类似于我们上面说的增删改查。比如说，在一个二叉树中，怎么查找一个节点？我们需要设计和这个二叉树配套的算法，不然这个数据结构也就没什么意义了。&lt;/p&gt;
 
-&lt;p&gt;I have hesitated to start writing my technical and research blog for several days. In general, I have two goals for that: First, it is a good chance for me to record the problems and solutions encountered throughout my research and experiments and sort the knowledge strcuture in my mind. I believe it would be very necessary and beneficial to my PhD career. Second, I indeed need to share some points on Internet, because I have learned a lot from Internet since I was very young. I cannot say that I am very knowlegable, but by doing so, if I can get some feedbacks or make friends who are really interested in the same problems, it would be very excited for me, I imagine.&lt;/p&gt;
+&lt;p&gt;从这个角度讲，数据结构和算法之间的关系是相互依赖的关系。&lt;/p&gt;
 
-&lt;p&gt;Until now, I still have no idea about writing the blog in English or Chinese. That is because some words seem very strange when expressed in Chinese. If translated directly, I mean, word by word, the meaning may be somehow twisted, although it is simple and straightforward. As an alternative, if I use paraphrases, i.e., finding the corresponding Chinese words with closest meaning to translate, the translation may also confuse some people and they would not know what you are talking about. If I present them by mixing English and Chinese, some guys in China may still feel a little strange, I think. Overall, I decide to write my blog by Chinese with some English words when necessary. Also, I suggest denoting some methods or techniques using English words. Because Computer Science is an area created in western world. A language determines your thinking patterns. Thus it is the best way to express the meaning by the original languages which conveys the original ideas. Once understanding the original meanings, we are able to have a better command of thinkings and logics behind these techniques. Therefore, we can make our own contributions and breakthroughs in this area.&lt;/p&gt;
+&lt;p&gt;这里还有一个问题要注意的就是，说到底，其实所有的关系全部都是「多对多」的关系，只不过「1对1」，「1对多」是「多对多」关系的特例。所以当「图」中每个节点都是一对多的，那么这个「图」就化归成了「树」，比如最小生成树就是这么来的；而当二叉「树」所有的节点都只有左孩子节点的时候，这个「树」就化归成了「链表」，也就是「线性表」的一种。&lt;/p&gt;
 
-&lt;p&gt;Finally, if you are interested in what I write, or find errors in my blog, feel free to contact with me: eniacsimon@gmail.com. Thank you!&lt;/p&gt;</content><author><name></name></author><summary type="html">一直在犹豫说想开自己的技术及科研博客，主要有两个目的，一是想自己整理一下做科研做实验的时候遇到的问题，梳理一下知识结构，我想这个对于正在读博士的我是个特别有必要的事情。第二是希望借助互联网这个平台能和其他人进行分享，我从小在互联网上学到了很多很多东西，也确实应该为互联网贡献一些自己的知识。不敢说自己的知识很多，但是就我自己所能去分享一些东西，得到一些反馈或是能结识一些对问题感兴趣的朋友，也是非常令人兴奋的。</summary></entry></feed>
+&lt;h3 id=&quot;线性表&quot;&gt;线性表&lt;/h3&gt;
+
+&lt;p&gt;线性表主要是两种，一个是数组，一个是链表。这里暂且不谈广义线性表。&lt;/p&gt;
+
+&lt;p&gt;数组是按照下标来索引数据的，而链表必须得从头开始查找数据。这就导致数组在查找和修改数据是比链表快的。&lt;/p&gt;
+
+&lt;p&gt;另一方面，我们如果想向他们中间插入数据或是删除数据，数组很麻烦，他需要把后面的数据依次顺移或是前移，而链表几乎只需要2-3步就可以完成，所以它增加和删除数据是比数组要快的。&lt;/p&gt;
+
+&lt;p&gt;头插法：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;Node&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;尾插法：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;Node&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;值得注意的是，如果我们把数组里的节点依次用头插法形成一个链表，那么最后这个链表的顺序就是和原来的数组的顺序相反。所以，一道题说怎样把链表反向？就可以利用头插法的这一特性。&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;Node&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Node&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;q&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;q&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;当然这个题还有另外两种思路。此处略。参见LC206。&lt;/p&gt;
+
+&lt;p&gt;讲到数组必然需要提到排序。&lt;/p&gt;
+
+&lt;p&gt;排序问题是非常典型的接触算法的入门基础问题，掌握好了对很多算法问题就有很深入的认识。&lt;/p&gt;
+
+&lt;p&gt;首先有一类排序是在排序的过程中总有一个排序区 Sorted Area 和非排序区 Unsorted Area。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;插入排序&lt;/li&gt;
+  &lt;li&gt;冒泡排序&lt;/li&gt;
+  &lt;li&gt;选择排序&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;插入排序&quot;&gt;插入排序&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;insertSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--;&lt;/span&gt;
+		&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;冒泡排序&quot;&gt;冒泡排序&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bubbleSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+				&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+			&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;选择排序&quot;&gt;选择排序&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;selectSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxIndex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; 
+				&lt;span class=&quot;n&quot;&gt;maxIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxIndex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxIndex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;还有一类是利用分治法 Divide-and-conquer，将大问题化归为小问题递归求解。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;归并排序
+    &lt;ul&gt;
+      &lt;li&gt;自顶向下 Top-down&lt;/li&gt;
+      &lt;li&gt;自底向上 Bottom-up&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;快速排序&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;归并排序-自顶向下&quot;&gt;归并排序-自顶向下&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mergeSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;mergeSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mergeSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;mergeSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;mergeSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Sort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; 
+			&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++];&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++];&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++];&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++];&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; 
+		&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;归并排序-自底向上&quot;&gt;归并排序-自底向上&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mergeSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;mergeSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mergeSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Sort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;gap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; 
+			&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++];&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++];&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++];&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++];&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; 
+		&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;快速排序&quot;&gt;快速排序&lt;/h4&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;quickSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+				&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--;&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+				&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++;&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+		&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;quickSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;quickSort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;其他的奇技淫巧。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;桶排序&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">数据结构</summary></entry><entry><title type="html">西方哲学读书笔记10-大陆理性主义</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch10.html" rel="alternate" type="text/html" title="西方哲学读书笔记10-大陆理性主义" /><published>2019-09-20T21:29:40-04:00</published><updated>2019-09-20T21:29:40-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch10</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch10.html">&lt;h2 id=&quot;第十讲-大陆理性主义&quot;&gt;第十讲 大陆理性主义&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;近代哲学是“认识论的转向”。科学知识从感觉经验归纳而来，是“经验论”，从理性固有的天赋观念而来，是“唯理论”。&lt;/li&gt;
+  &lt;li&gt;经验论代表是培根、洛克、巴克莱和休谟，唯理论的代表是笛卡尔、斯诺宾莎和莱布尼茨。&lt;/li&gt;
+  &lt;li&gt;经验论的局限性是，它无法说明知识的客观有效性，也无法证明知识的普遍必然性。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;笛卡尔&quot;&gt;笛卡尔&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;形而上学的第二原理“上帝存在”和第三原理“物质存在”。&lt;/li&gt;
+  &lt;li&gt;上帝存在：
+    &lt;ul&gt;
+      &lt;li&gt;证明1：我们通过怀疑除了确定“我在”之外不可能确定别的什么，而认识显然比怀疑有更大的完满性，所以我的存在是不完满的，而上帝的概念是无限完满的，按照“无中不能生有”、“原因必须大于或等于结果”的原则，“上帝”的概念不可能来源于“我”，只可能是一个比我更加完满的存在将这个观念放进我的心灵之中，这个完满的存在就是上帝。&lt;/li&gt;
+      &lt;li&gt;证明2：既然我不是完满的，那么我不是唯一存在的实体，必然有一个更加完满的实体作为我存在的根据。&lt;/li&gt;
+      &lt;li&gt;证明3：凡是我清楚明白认识到属于某个东西的，都一定在实际上属于这个东西。我能清楚明白地认识到，一个现实的、永恒的存在性属于上帝的本性，那么它就属于上帝的本性。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;物质存在：
+    &lt;ul&gt;
+      &lt;li&gt;“凡是我清楚明白认识到的，都是真的。”这条规则可靠是因为有完满的上帝存在，我们的观念是从上帝那里来的，所以只能是真的。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;我们的确有关于物质世界的清楚明白的观念，来自上帝，因此必然是真实可靠的，因此上帝保证了物质世界的真实存在。&lt;/li&gt;
+  &lt;li&gt;二元论立场导致需要上帝出马来保证心灵和物体的一致性。笛卡尔从普遍怀疑出发，确定了心灵、上帝和物体三种实体（不需要其他存在）的存在，唯一真正的实体只有上帝，心灵和物体是仅依赖于上帝的实体。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;斯诺宾莎&quot;&gt;斯诺宾莎&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;哲学体系由本体论、认识论和伦理学组成，其中本体论为基础，认识论是手段，伦理学是目的，其哲学的目的在于道德上的至善，即达到人生最高的完满境界。&lt;/li&gt;
+  &lt;li&gt;完全按照几何学的方法构造了一个哲学体系。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;本体论&quot;&gt;本体论&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;即实体学说。&lt;/li&gt;
+  &lt;li&gt;实体，独立存在，自己是自己的原因。&lt;/li&gt;
+  &lt;li&gt;实体是无限的，实体是永恒的，实体是不可分的，实体是唯一的。实体，即神或自然。&lt;/li&gt;
+  &lt;li&gt;神，绝对无限的存在，具有无限“多”属性的实体，其中每一属性各表示永恒无限的本质。泛神论。&lt;/li&gt;
+  &lt;li&gt;属性，实体的本质。就人的认识限度而论，只有两个属性，即思维和广延。&lt;/li&gt;
+  &lt;li&gt;一元论，将思想实体和广延实体降低为实体的属性，来化解笛卡尔的二元论，即心灵和身体是同一个体的两个方面。&lt;/li&gt;
+  &lt;li&gt;样式，实体的分殊，亦即在他物内通过他物而被认知的东西，万事万物是唯一实体的特殊表现形式。一切事物要么属于思维属性的样式，要么属于广延属性的样式。&lt;/li&gt;
+  &lt;li&gt;实体与样式之间的关系就是一般与个别、原因与结果的关系。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;认识论&quot;&gt;认识论&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;认识的目的在于认识实体而达到至善的最高境界。严格来说，实体是认识的唯一对象。对实体的认识有两种途径，一是从神圣的自然必然性去认识，即对实体本身的知识；二是从实体的样式即具体事物去认识。&lt;/li&gt;
+  &lt;li&gt;知识有三种：意见或想象（不确定的，错误的原因）、理性知识（由推论而来的知识，如数学）、直观知识（最高的认识）。&lt;/li&gt;
+  &lt;li&gt;“真观念”学说：真观念就是关于事物的本质的真理性认识，它是由简单的观念构成的，能表示一物怎样和为什么存在或产生，真观念的客观效果在心灵中，与其对象的形式本身相符合。&lt;/li&gt;
+  &lt;li&gt;“真观念”同“天赋观念”的区别在于，真观念是由“直观”和“推理”而来的，而这两种能力是天赋的，而非观念是天赋的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;伦理学&quot;&gt;伦理学&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;自然中的一切事物都受严格的因果必然性支配，作为自然一部分的人如何达到至善的道德境界？认识万物的本质，即神就能通达。&lt;/li&gt;
+  &lt;li&gt;情感与理性是人类心灵的两大基本要素。&lt;/li&gt;
+  &lt;li&gt;完全受情感支配则沦为动物，等于完全受命运摆布，唯有理性可以摆脱情感的奴役，认识神、理解神。我们通达至善而成为自由人的唯一途径就是认识神。&lt;/li&gt;
+  &lt;li&gt;心灵的绝对德性就是理解，因为心灵只有在理解时才是主动的。&lt;/li&gt;
+  &lt;li&gt;相对的善：追求财产、荣誉和感官快乐，相对而暂时，还可能带来痛苦，善转变为恶。应该用理性控制和理解情感，通过知识将我们从激情的束缚中解放出来，追求绝对的善，成为自由人。&lt;/li&gt;
+  &lt;li&gt;“至善”是认识的最高目的，人生的最高境界，也是他的最后归宿。简言之，就是知神，就是认识人的心灵和整个自然的和谐一致。&lt;/li&gt;
+  &lt;li&gt;依照理性的指导的人就是自由的。他所理解的自由就是对自身本性必然性的认识&lt;/li&gt;
+  &lt;li&gt;斯诺宾莎哲学是德国古典哲学的理论来源之一。黑格尔认为，研究哲学就首先要做一个斯诺宾莎主义者。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;莱布尼茨16461716&quot;&gt;莱布尼茨（1646—1716）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;出生于德国莱比锡，哲学家、科学家及社会活动家。&lt;/li&gt;
+  &lt;li&gt;在《神正论》中把哲学面临的问题归结为两大迷宫：一是自由与必然性的矛盾；二是不可分的点与连续性的矛盾。&lt;/li&gt;
+  &lt;li&gt;机械论的实体观有几大问题：将物体的本质规定为广延，即单纯的量的规定，将作用力与反作用力的力学原理引入哲学，以因果关系作为自然界和人类社会的普遍规律。
+    &lt;ol&gt;
+      &lt;li&gt;不可分的点与连续性的矛盾：实体无限可分（连续性）、原子论（不可分）；&lt;/li&gt;
+      &lt;li&gt;无法解释许多经验的事实，不能说明生物的运动变化：广延实体是僵死的东西，不具有能动性，但它应该是一般实体的本质；&lt;/li&gt;
+      &lt;li&gt;难以说明物质世界的本质，不能解释感觉现象和思想现象：有形体的物质是如何获得精神能力并且形成无形体的意识的？&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;莱布尼茨认为宇宙万物的实体是无限多个，即单子：客观存在的无限多的，非物质性的能动性的精神实体，它是一切事物的“隐德莱希”（内在目的）。&lt;/li&gt;
+  &lt;li&gt;单子具有的特征：单纯性（原子性、不可分）、无限性（无限多）、永恒性、独立性、本质差异性（每个都不一样）、自因性（出于自身为目的）。&lt;/li&gt;
+  &lt;li&gt;单子的内在原则和能动的本性是“力”，每个单子都是“力的中心”，表现为“欲求”和“欲望”，即事物的内在目的。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">第十讲 大陆理性主义 近代哲学是“认识论的转向”。科学知识从感觉经验归纳而来，是“经验论”，从理性固有的天赋观念而来，是“唯理论”。 经验论代表是培根、洛克、巴克莱和休谟，唯理论的代表是笛卡尔、斯诺宾莎和莱布尼茨。 经验论的局限性是，它无法说明知识的客观有效性，也无法证明知识的普遍必然性。</summary></entry><entry><title type="html">西方哲学读书笔记9-主体性的觉醒</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch9.html" rel="alternate" type="text/html" title="西方哲学读书笔记9-主体性的觉醒" /><published>2019-09-20T21:29:30-04:00</published><updated>2019-09-20T21:29:30-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch9</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch9.html">&lt;h2 id=&quot;第九讲-主体性的觉醒&quot;&gt;第九讲 主体性的觉醒&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;近代哲学主要是17世纪到19世纪末的西方哲学，划分方式不是按时间，而是按哲学形态。&lt;/li&gt;
+  &lt;li&gt;时代特征是三个发现：“地理大发现”、“人的发现”、“科学的发现”。&lt;/li&gt;
+  &lt;li&gt;不仅关注自然科学的问题，也关注超验的本体论问题，试图形成统一的哲学体系。&lt;/li&gt;
+  &lt;li&gt;近代哲学与自然科学的关系：
+    &lt;ol&gt;
+      &lt;li&gt;自然科学的发展在科学知识方面为近代哲学提供必要基础；&lt;/li&gt;
+      &lt;li&gt;近代哲学为科学提供方法和基础，即以数学为工具，以实验为手段&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;近代哲学从笛卡尔开始，知识和对象分开了，自然事物是不以我们的意识为转移的客观存在，我们关于自然的知识是自成系统的，它们不一定与对象一致，哲学的任务就在于寻找使知识与对象一致的方法。&lt;/li&gt;
+  &lt;li&gt;基督教思想背景下恢复自然的地位，因为自然是上帝为人准备的生活资料，所以研究自然是为了为人类服务。&lt;/li&gt;
+  &lt;li&gt;近代哲学的主要精神是“启蒙主义”。&lt;/li&gt;
+  &lt;li&gt;启蒙主义狭义是指18世纪的法国哲学，广义是指近代哲学的精神，如主体性或自我意识原则、科学主义、理性主义等。&lt;/li&gt;
+  &lt;li&gt;启蒙主义的基础是理性，希腊哲学的理性是朴素辩证的，近代哲学的理性是抽象、形式化和科学的，理性是科学理性。&lt;/li&gt;
+  &lt;li&gt;但，启蒙主义试图将科学方法贯彻于人类知识的全部领域是，内部出现矛盾——启蒙要求克服种种限制获得自由，而科学进步的结果却是严格的决定论。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;方法论&quot;&gt;方法论&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;笛卡尔（1596—1650）认为除了数学以外没有任何有价值的知识，去从军体验生活、观察世界，科学家，解析几何创始人。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;时代&lt;/th&gt;
+      &lt;th&gt;理性主义&lt;/th&gt;
+      &lt;th&gt;经验主义&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;古代哲学&lt;/td&gt;
+      &lt;td&gt;柏拉图&lt;/td&gt;
+      &lt;td&gt;亚里士多德&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;中世纪经院哲学&lt;/td&gt;
+      &lt;td&gt;唯实论&lt;/td&gt;
+      &lt;td&gt;唯名论&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;近代哲学&lt;/td&gt;
+      &lt;td&gt;唯理论&lt;/td&gt;
+      &lt;td&gt;经验论&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;笛卡尔试图将哲学达到数学所特有的确定性和科学性，即寻找一个清楚明白无可置疑的第一原理，由之推演出整个哲学体系。&lt;/li&gt;
+  &lt;li&gt;解决哲学的关键问题是方法问题，人人具有理性，但不够，必须建立正确的方法来指导理性的作用才能获得真理。&lt;/li&gt;
+  &lt;li&gt;四条方法论原则：
+    &lt;ol&gt;
+      &lt;li&gt;决不能把任何我没有明确地认识其为真的东西当作真的加以接受；确立理性的权威；&lt;/li&gt;
+      &lt;li&gt;把每一个难题尽可能分成细小的部分，直到每个都能圆满解决为止；从个别到一般；&lt;/li&gt;
+      &lt;li&gt;从最简单的、最容易认识的对象开始，上升到对复杂对象的认识；即综合方法；&lt;/li&gt;
+      &lt;li&gt;把一切情形尽可能完全列举出来，尽量普遍地加以审视。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;四条原则建立了“理性演绎法”：直观和演绎。&lt;/li&gt;
+  &lt;li&gt;直观：必须是明白而清晰的，人心在注意思考他们时，一定不能怀疑他们的真理；“天赋观念”。&lt;/li&gt;
+  &lt;li&gt;演绎：关于别的事物方面的所有知识一定是完全依靠这些原理的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;我思故我在&quot;&gt;我思故我在&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;感性知识、感觉经验是不可靠的，所以一切知识都是值得怀疑的，“我在怀疑”是不能怀疑的，因为对它的怀疑就是对它的证明。（和我的矛盾论有着异曲同工之妙）&lt;/li&gt;
+  &lt;li&gt;形而上学的第一条原理：“我思故我在”。&lt;/li&gt;
+  &lt;li&gt;“我”不是物质性的东西，而是一种心灵实体，本质是“思想”，包括一切意识活动。&lt;/li&gt;
+  &lt;li&gt;“我思故我在”不是推论而是理性直观得到的一条真理。&lt;/li&gt;
+  &lt;li&gt;笛卡尔通过怀疑的方法寻求不证自明的真理的过程也是将知识内容排除出去，最后发现知识的形式即认识主体的过程。&lt;/li&gt;
+  &lt;li&gt;“我思故我在”应该翻译成，我思想，所以我是，我起作用的，我是我，我成了我，所以思想是我的本质。&lt;/li&gt;
+  &lt;li&gt;“我思故我在”的意义：
+    &lt;ol&gt;
+      &lt;li&gt;通过怀疑寻找无可置疑的基点，可能是唯一可行的策略，即通过否定的方式寻求肯定的结论；&lt;/li&gt;
+      &lt;li&gt;一切都是值得怀疑的，包括知识、上帝，由此确立理性的地位；&lt;/li&gt;
+      &lt;li&gt;体现了近代哲学主体性的原则。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;二元论：将思维内容（客体）与思维形式（“我思”主体）区分开确立主体性原则。&lt;/li&gt;
+  &lt;li&gt;二元论的困境是心灵与物体之间关系的问题，如何实现思想和物质的一致性？需要证明上帝存在和物质存在。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;心神关系&quot;&gt;心神关系&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;理论&lt;/th&gt;
+      &lt;th&gt;提出者&lt;/th&gt;
+      &lt;th&gt;解释&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;心身交感论&lt;/td&gt;
+      &lt;td&gt;笛卡尔&lt;/td&gt;
+      &lt;td&gt;通过研究人体解剖学和生理学，认为松果腺的腺体是连接心灵和身体的交换台。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;偶因论&lt;/td&gt;
+      &lt;td&gt;法国的马勒布朗士&lt;/td&gt;
+      &lt;td&gt;认为心神分离，靠上帝协调一致。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;副现象论&lt;/td&gt;
+      &lt;td&gt;庸俗唯物主义&lt;/td&gt;
+      &lt;td&gt;认为生理活动是真实存在的，心理活动是一种它的影子，一种副现象。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一元论&lt;/td&gt;
+      &lt;td&gt;斯诺宾莎&lt;/td&gt;
+      &lt;td&gt;心身是同一个实体的两个方面。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;上帝先定&lt;/td&gt;
+      &lt;td&gt;莱布尼茨&lt;/td&gt;
+      &lt;td&gt;上帝先定和谐，使身心协调一致。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">第九讲 主体性的觉醒</summary></entry><entry><title type="html">西方哲学读书笔记8-人的发现</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch8.html" rel="alternate" type="text/html" title="西方哲学读书笔记8-人的发现" /><published>2019-09-20T21:29:20-04:00</published><updated>2019-09-20T21:29:20-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch8</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch8.html">&lt;h2 id=&quot;第八讲-人的发现&quot;&gt;第八讲 人的发现&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;欧洲的14-16世纪是“文艺复兴时期”，复兴古希腊罗马文明，整理古希腊文献，也是“人的发现”的时代。&lt;/li&gt;
+  &lt;li&gt;教会腐败，1517年10月31日，马丁·路德《九十五条论纲》进行宗教改革，使新教教会分离，形成基督教、东正教和天主教这三大基督教派。&lt;/li&gt;
+  &lt;li&gt;15世纪末至16世纪初新航路开辟、地理大发现是欧洲在世界历史上崛起的标志。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;文艺复兴&quot;&gt;文艺复兴&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;文艺复兴的实质是人文主义运动：
+    &lt;ol&gt;
+      &lt;li&gt;反对中世纪抬高神、贬低人的观点，肯定人的价值、尊严和高贵；&lt;/li&gt;
+      &lt;li&gt;反对中世纪神学主张的禁欲主义和来世观念，要求人生的享乐和个性的解放，肯定现世生活的意义；&lt;/li&gt;
+      &lt;li&gt;反对封建等级观念，主张人的自然平等。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;文艺复兴的第二大功绩是“科学的发现”，即自然科学的发展，观察和实验成为科学研究的重要手段。&lt;/li&gt;
+  &lt;li&gt;15世纪是“大航海时代”：
+    &lt;ul&gt;
+      &lt;li&gt;世纪初，郑和七下西洋；&lt;/li&gt;
+      &lt;li&gt;1488年，迪亚士发现非洲好望角；&lt;/li&gt;
+      &lt;li&gt;1492年，哥伦布发现新大陆；&lt;/li&gt;
+      &lt;li&gt;1498年，达·伽马到达印度；&lt;/li&gt;
+      &lt;li&gt;1520年，麦哲伦开始环球航行。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;人文主义的另一大贡献：文学艺术的成就前所未有，对教会腐败的批判和对神职人员虚伪的揭露。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;宗教改革&quot;&gt;宗教改革&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;宗教改革可以看作是人文主义在宗教神学领域的延伸。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;宗教改革的直接要求是消解教会的权威，变奢侈教会为廉洁教会，由外在权威返回个人的内心信仰。&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“基督并不显现在一种外在的形式里，而是根本属于精神的，只有同上帝和解后才能够得到，是在信仰和享受里。”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;简单的说就是，上帝并不在你之外，上帝就在你的内心之中。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;马丁路德14831546&quot;&gt;马丁·路德（1483—1546）&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;反对教皇以修建圣彼得大教堂为名在德国兜售赎罪券；把圣经翻译成德语。&lt;/li&gt;
+  &lt;li&gt;改革的核心是灵魂如何得救的问题：“义人必因信而得生”，获救与善功、教会的中介作用没有关系。事功只是信仰的结果，童身、守贫等禁欲主义等戒律是不必要的。&lt;/li&gt;
+  &lt;li&gt;教会垄断拯救人灵魂的权力，提出上帝不与有罪之人交往，人要获救必须借助教士的中介作用。路德认为人人都可以阅读和解释圣经，并在其中与上帝交流，只有圣经才是永无谬误的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;让加尔文15091564&quot;&gt;让·加尔文（1509—1564）&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;定居日内瓦，建立新教教会，重新推出奥古斯丁的“先定”说，即宿命论方面。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;个人的功德和教会的存在都不能改变上帝的先定，上帝对其拣选的选民，必然给予充分的支持，所以只要个人自事业上取得成功，就是实现了上帝所赋予的先定使命，也是死后灵魂得救的可靠证明。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;宗教改革诉诸个人的内心信仰为近代哲学主体性的觉醒准备了条件；永恒的真理与有限的个人存在在“主体性”基础上得到了“和解”，因此宗教改革的根本内容是“人类靠自己是注定要变成自由的”。&lt;/li&gt;
+  &lt;li&gt;但宗教改革只是在信仰范围内进行的改革，本质上仍然是反理性反科学。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;近代哲学的曙光&quot;&gt;近代哲学的曙光&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;文艺复兴时期，自然科学的发展取得了一系列突破性的成果。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;尼古拉库萨14011464&quot;&gt;尼古拉·库萨（1401—1464）&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;泛神论哲学体系，核心问题是有限的人类理智如何认识和把握无限的真理，即上帝。
+    &lt;ol&gt;
+      &lt;li&gt;上帝是“极大”，极大是没有比它更大的事物存在而不是因比较而产生的最大；&lt;/li&gt;
+      &lt;li&gt;上帝是“对立面的一致”，在无限的上帝里面万物都没有区别，一切对立在上帝之中调和，上帝却是无对立的统一；&lt;/li&gt;
+      &lt;li&gt;认识是“有学问的无知”，认识就在于确立已知和未知之间的比例关系，如果二者没有可比性，认识就不可能，比如认识无限的上帝，不能借助知性的逻辑演绎，而是借助类比和理性的超越（无知）。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;库萨否认我们能精确认识真理，但又认为我们可以不断逼近真理。认识的真谛在于“永不可及”和“越来越近”的辩证统一。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;乔尔丹诺布鲁诺15481600&quot;&gt;乔尔丹诺·布鲁诺（1548—1600）&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;受到库萨的影响，进一步建立泛神论理论体系。&lt;/li&gt;
+  &lt;li&gt;本原，是从内部促成事物的形成，并且作为该事物的基本要素，留存于该事物之中的东西，又叫实体。形式不能离开物质存在，只有物质是本原。&lt;/li&gt;
+  &lt;li&gt;原因，是从外部促成事物的形成，并自身留存于事物之外的东西。世界理智是自然万物的真正作用因，使万物处于惊人的秩序中。&lt;/li&gt;
+  &lt;li&gt;宇宙是一，是“太一”，没有差异，所以统一，无所不包，所以无限，不可移动，所以不动。我们对它什么都不能说，因此宇宙是“神”。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;弗朗西斯培根15611626&quot;&gt;弗朗西斯·培根（1561—1626）&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;他的哲学的根本目的是实现科学的伟大复兴，推进知识的发展，使人们能够按照自然的本来面目去认识自然，并且支配和利用自然，为人类自身谋福利。&lt;/li&gt;
+  &lt;li&gt;“知识就是力量”，经验论原则为后来英国经验论奠定基础。&lt;/li&gt;
+  &lt;li&gt;“四假相说”，所谓假相，是指盘踞在人的头脑中的一些错误观念，使人们不能正确认识真理，严重妨碍了科学的复兴。
+    &lt;ul&gt;
+      &lt;li&gt;“族类的假相”是人类天性中普遍存在的缺陷，不以客观事物本身为尺度，过于主观；&lt;/li&gt;
+      &lt;li&gt;“洞穴的假相”是由于个人的特性而产生的假相，人之间有差异性；&lt;/li&gt;
+      &lt;li&gt;“市场的假相”是由于交往中话语使用不当引起的假相，名实不符，造成错误的观念；&lt;/li&gt;
+      &lt;li&gt;“剧场的假相”是各式各样的哲学体系以及错误的论证方法移植到人们心中的假相，哲学体系和现实之间有差异。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;一切知识来源于感觉经验，认识的目的在于发现自然事物的“形式”，即事物运动的规律、决定物体性质的法则和事物的本质规定。&lt;/li&gt;
+  &lt;li&gt;主张实验+适当的论证得到知识，感觉只接触到实验，实验接触到了自然和事物本身。&lt;/li&gt;
+  &lt;li&gt;认识事物的形式用经验归纳法：收集资料——运用“三表法”来整理资料——进行真正的归纳。&lt;/li&gt;
+  &lt;li&gt;培根不具备近代科学的新知识，所以他的思想是向近代哲学过渡的重要环节。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">第八讲 人的发现</summary></entry><entry><title type="html">西方哲学读书笔记7-信仰的时代</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch7.html" rel="alternate" type="text/html" title="西方哲学读书笔记7-信仰的时代" /><published>2019-09-20T21:29:10-04:00</published><updated>2019-09-20T21:29:10-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch7</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch7.html">&lt;h2 id=&quot;第七讲-信仰的时代&quot;&gt;第七讲 信仰的时代&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;西方哲学史：古代哲学（希腊哲学）、中古哲学（中世纪哲学）、近代哲学和现代哲学。&lt;/li&gt;
+  &lt;li&gt;中古哲学包括：教父哲学、经院哲学、文艺复兴和宗教改革。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;基督教的诞生&quot;&gt;基督教的诞生&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;犹太教的一个小宗派，创始人耶稣，公元一世纪。&lt;/li&gt;
+  &lt;li&gt;公元前6世纪，“巴比伦之囚”，犹太人中流传弥赛亚（救世主）的传说，巴勒斯坦并入罗马，耶稣作为弥赛亚和以色列之王，引起罗马统治者和犹太上层的恐慌，耶稣被钉在十字架上，许多人相信他复活，举行末日审判，降临上帝之国。&lt;/li&gt;
+  &lt;li&gt;基督教成为世界性的宗教，原因在于：&lt;/li&gt;
+  &lt;li&gt;一，从上帝普爱世人的信仰出发，主张爱人如己，打破民族界限，成为不同民族的共同选择；&lt;/li&gt;
+  &lt;li&gt;二，罗马帝国为基督教的传播提供了条件。&lt;/li&gt;
+  &lt;li&gt;日耳曼人进入欧洲：氏族公社解体的军事民主制，灭亡西罗马帝国后变为庄园农奴制，即“封建制度”。&lt;/li&gt;
+  &lt;li&gt;中世纪的黑暗时期主要是指西罗马帝国灭亡后的几百年（400-1000），物质匮乏但精神世界丰富。&lt;/li&gt;
+  &lt;li&gt;基督教教会、修道院对保护希腊罗马文献起到重要的作用，教会的排斥异类也有效防止了日耳曼民族当时还处在幼稚状态的心灵被各式各样的学说理论搅得一团糟。&lt;/li&gt;
+  &lt;li&gt;希腊哲学的精神是一种乐观主义的悲剧精神，它的主题是命运、必然性和规律，乐观面对命运。基督教哲学逃避、抛弃和否定了现实生活，以否定现实的方式谋求灵魂的救赎，对现世持悲观主义，但对来世持乐观主义。&lt;/li&gt;
+  &lt;li&gt;中世纪哲学的主要问题是信仰和理性之间的关系问题。&lt;/li&gt;
+  &lt;li&gt;教父即教会的父亲，在理论上论证和捍卫基督教信仰，统一了信仰与哲学，形成相对统一和完整的教义。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;教父哲学&quot;&gt;教父哲学&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2世纪——6世纪，和晚期希腊哲学的时间重合。&lt;/li&gt;
+  &lt;li&gt;区分为“希腊教父（东方教父）”和“拉丁教父（西方教父）”。&lt;/li&gt;
+  &lt;li&gt;斯多亚学派（禁欲主义）与新柏拉图主义（神秘主义）是教父哲学的理论来源和基础。&lt;/li&gt;
+  &lt;li&gt;查士丁（约100—166）最早的希腊教父：“真哲学就是真宗教，真宗教就是真哲学”，逻各斯是上帝的内在理智和永恒智慧，上帝藉着逻各斯创造万物，逻各斯便永恒地普照整个世界，向所有的人普照真理。&lt;/li&gt;
+  &lt;li&gt;德尔图良（约160—240）拉丁教父：“正因为荒谬，我才相信”，哲学与宗教是对立的，不可调和。&lt;/li&gt;
+  &lt;li&gt;埃及亚历山大里亚学派代表希腊教父克莱门和奥里根。&lt;/li&gt;
+  &lt;li&gt;克莱门（约150—211）认为，哲学是上帝的作品，哲学不是目的，而应服从信仰、服务于信仰。&lt;/li&gt;
+  &lt;li&gt;奥里根（约185—254）提出“寓意解经法”，用“隐喻”解决不合情理或自相矛盾的地方。&lt;/li&gt;
+  &lt;li&gt;奥古斯丁（354—430）早年一方面向往信仰，另一方面又难以摆脱欲望的纠缠。皈依基督教的经历被称为“花园里的奇迹”。&lt;/li&gt;
+  &lt;li&gt;“只有先信仰，才能理解关于上帝的真理”，即信仰是一切认识的先决条件、方法和途径。&lt;/li&gt;
+  &lt;li&gt;恶的问题：一个全知全能全善的上帝，怎么会创造一个充满了罪恶和苦难的世界呢？&lt;/li&gt;
+  &lt;li&gt;神正论：引入自由意志论，恶是人的自由意志的选择，意志是罪的唯一原因。但上帝创造了人，并未解决恶的问题——恶是善的缺失。晚年转向决定论：遗传自亚当的“原罪”，即违背与上帝签订的契约所犯下的。&lt;/li&gt;
+  &lt;li&gt;针对怀疑论，从人的自我意识出发，“人可以怀疑一切，不可以怀疑自己思维的确定性”——对笛卡尔“我思故我在”的启示。&lt;/li&gt;
+  &lt;li&gt;“不要到外部去寻找，要转入你自身。真理就居住在人的内心”，“永恒的真理就是上帝”。&lt;/li&gt;
+  &lt;li&gt;上帝用什么创造了世界？不管有无都会产生悖论，所以是无中生有。&lt;/li&gt;
+  &lt;li&gt;上帝在创世之前在做什么？创世的时候就创造了时间，“先于”一词需要在时间的框架下，因此问题有悖。&lt;/li&gt;
+  &lt;li&gt;命定论：410年罗马被哥特人攻陷，《上帝之城》，上帝将真信赋予某些人，另一些人被排除在外。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;经院哲学&quot;&gt;经院哲学&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;800年，蛮族人建立的法兰克王国，国王查理曼大帝加冕后，“加洛林王朝文化复兴”。&lt;/li&gt;
+  &lt;li&gt;基督教会是文化延续者，学校是研究神学的基地，学校教师和学者是经院学者（经师），故称为经院哲学。&lt;/li&gt;
+  &lt;li&gt;大学是中世纪对人类文化的一大贡献。&lt;/li&gt;
+  &lt;li&gt;托钵僧团体（13世纪）：（多米尼克）多明我修会和（弗兰西斯）圣方济各修会。&lt;/li&gt;
+  &lt;li&gt;安瑟尔谟（1033—1109）“最后一位教父和第一个经院哲学家”，关于上帝存在的本体论证明：利用无与伦比的特性由现实存在和思想中存在反证。&lt;/li&gt;
+  &lt;li&gt;托马斯·阿奎那（1224—1274）多明我修会，引入亚里士多德的经验思想，今天天主教仍为新托马斯主义。提出上帝的“宇宙论的证明”：根据亚里士多德的“无穷不可倒退”原则得出的第一推动者、动力因、秩序。经院哲学研究的主要问题是共相与殊相、一般与个别的关系问题。&lt;/li&gt;
+  &lt;li&gt;普罗提诺的学生波菲力提出三个问题：1、共相是不是实体？2、如果是实体有没有形？3、如果有形是否存在与可感物之中？&lt;/li&gt;
+  &lt;li&gt;对于共相是否为独立存在的实体的判断分为唯实论（realism）和唯名论（nominalism）。&lt;/li&gt;
+  &lt;li&gt;洛色林：唯名论；其学生彼得·阿伯拉尔（概念论）：共相不是实体；共相作为名词是有形的，作为意义是无形的；共相存在于可感事物之中，但把握它表现为心灵的一般印象。个别事物是产生共相的原因。&lt;/li&gt;
+  &lt;li&gt;托马斯·阿奎那：温和的唯实论。从认识论以及目的论体系上看，殊相在先，共相在后；从本体论以及现实的发展史上看，共相在先，殊相在后。例子：人与动物。&lt;/li&gt;
+  &lt;li&gt;邓斯·司各脱（1270—1368）反对用理性来思维上帝，神学不是思辨的科学，而是帮助拯救人灵魂的实践学科。&lt;/li&gt;
+  &lt;li&gt;奥卡姆的威廉（约1300—1349）：共相不是实体也不存在于物之中，否则会违反共相的单一性，因此共相仅仅存在于灵魂之中，是概念和符号。“如无必要，勿增实体”——“奥卡姆剃刀”。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;从某种意义上说，中世纪哲学是柏拉图主义和亚里士多德思想的奇特混合物：上帝是最高的超验的实体，而整个体系则是高度抽象和形式化的。一般来说，唯实论是正统，唯名论是异端，证明理性和信仰的调和失败了。&lt;/p&gt;</content><author><name></name></author><summary type="html">第七讲 信仰的时代</summary></entry><entry><title type="html">西方哲学读书笔记6-晚期希腊哲学</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch6.html" rel="alternate" type="text/html" title="西方哲学读书笔记6-晚期希腊哲学" /><published>2019-09-20T21:29:00-04:00</published><updated>2019-09-20T21:29:00-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch6</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch6.html">&lt;h2 id=&quot;第六讲-晚期希腊哲学&quot;&gt;第六讲 晚期希腊哲学&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;希腊化时期（323BC—31BC 亚历山大的马其顿王国）和罗马时期（前1世纪—476AD/1453AD）的哲学。&lt;/li&gt;
+  &lt;li&gt;晚期希腊哲学的两个特征：一是没有提出新的理论学说，感性色彩浓烈，二是具有伦理化的倾向（由于战乱，社会动荡不安），以伦理学为核心，以灵魂安宁和生活幸福为主要目的。&lt;/li&gt;
+  &lt;li&gt;值得注意的是，学术研究的分离和独立，使自然科学方面取得的进步超过了17世纪以前的任何一个时期。&lt;/li&gt;
+  &lt;li&gt;原因有三，一是战争促进对技术的需要，二是希腊科学和中东科学的交流，三是在希腊文化的熏陶下，希腊化时期的国王慷慨支持科学研究。&lt;/li&gt;
+  &lt;li&gt;这个时期的哲学分为三部分，逻辑学（认识论）、形而上学（物理学）和伦理学，逻辑学是工具，物理学是基础，伦理学是目的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;伊壁鸠鲁主义&quot;&gt;伊壁鸠鲁主义&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;伊壁鸠鲁（342BC—270BC）。&lt;/li&gt;
+  &lt;li&gt;哲学体系包含三部分，研究真理标准的准则学；研究自然以及生灭的物理学；研究人生极其目的的伦理学。&lt;/li&gt;
+  &lt;li&gt;一个人要想获得灵魂的安宁，享受人生的幸福，就必须认识宇宙自然的本性。&lt;/li&gt;
+  &lt;li&gt;思想基础是德谟克利特的原子论和小苏格拉底学派中昔兰尼学派的快乐主义。&lt;/li&gt;
+  &lt;li&gt;根据宇宙论，宇宙就是一个机械论的物质的自然宇宙，世界万物是由原子和虚空构成，但没有目的性的东西起作用，神虽然存在，但与我们毫无关系。&lt;/li&gt;
+  &lt;li&gt;判断真理的标准有三类：感觉、预见和情感。感觉是绝对真实的，理性完全来自感觉；预见是对外在东西的回忆；情感是内在的感觉，有快乐和痛苦两种状态。&lt;/li&gt;
+  &lt;li&gt;对原子论的修正：原子形状有限；原子有重量；原子有偏斜运动。&lt;/li&gt;
+  &lt;li&gt;在伊壁鸠鲁看来，物理学对自然的研究是为伦理学服务的，因为只有了解了自然万物的本性，才能具有科学的知识，只有具备了科学的知识，才能真正消除对神灵和死亡的恐惧，享受无疵的快乐。&lt;/li&gt;
+  &lt;li&gt;快乐是最高的和天生的善，但这并不是指放荡的快乐和肉体之乐；&lt;/li&gt;
+  &lt;li&gt;快乐是身体的无痛苦和灵魂的不收干扰，如清晰的推理，寻求选择和避免的原因、排除那些使灵魂不得安宁的观念，最使灵魂不得安宁的观念是对神灵和死亡的恐惧感。&lt;/li&gt;
+  &lt;li&gt;对于神灵，他们不干预我们；对于死亡，“我们活着时，死亡尚未来临；死亡来临时，我们已经不在了。”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;斯多亚学派&quot;&gt;斯多亚学派&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;理论派的早期斯多亚学派、折中性的中期斯多亚学派和务实性的晚期斯多亚学派。&lt;/li&gt;
+  &lt;li&gt;与伊壁鸠鲁相同的是，坚持感觉经验的立场，主张按照自然本性生活；不同在于，认为自然的本性是理性。&lt;/li&gt;
+  &lt;li&gt;伊壁鸠鲁主义同斯多亚学派之争体现西方伦理思想史的两大倾向，幸福主义和德性论之争。&lt;/li&gt;
+  &lt;li&gt;相同的认识论（感觉主义），不同的伦理学，源于不同的世界观，即目的论和机械论。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;早期斯多亚学派&quot;&gt;早期斯多亚学派&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;创始人是塞浦路斯岛的芝诺（巴门尼德的学生是爱利亚的芝诺），在画廊中讲学，故得名画廊学派。&lt;/li&gt;
+  &lt;li&gt;亚里士多德的形而上学、小苏格拉底学派犬儒学派的伦理学及赫拉克利特的自然哲学的混合。&lt;/li&gt;
+  &lt;li&gt;逻辑学包括辩证法和修辞学，发展了亚里士多德的逻辑学，在西方逻辑史上有一席之地。&lt;/li&gt;
+  &lt;li&gt;认识论：认识的起源、概念的形成和真理的标准。感觉主义立场：只有个别事物的是现实存在的，灵魂原本是一块白板，认识源于外部事物作用在我们心灵而产生的表象，相同的记忆或表象的结合产生了经验，概念是通过对经验的概括形成的。&lt;/li&gt;
+  &lt;li&gt;真理的标准：感觉的表象必须加以理解和把握才能成为真理。真理是能理解的表象。&lt;/li&gt;
+  &lt;li&gt;虽然感觉是真实可靠的，但只有按照正确的规则合乎逻辑地推理（理性可能出错），才能把握事物的本质。&lt;/li&gt;
+  &lt;li&gt;虽然我们每个人都先天禀赋有与宇宙理性一样的理性，但这不代表我们现实地是有德性的人，我们需要后天的学习，学习自然，按照自然的本性生活。&lt;/li&gt;
+  &lt;li&gt;自然哲学：整个宇宙是一个有意识、有智慧的和谐统一体，一切都是必然的，不存在偶然性。&lt;/li&gt;
+  &lt;li&gt;人作为有理性的存在，从属于宇宙理性，生活的目的在不在于快乐，而在于实现理性，与宇宙理性和谐一致。&lt;/li&gt;
+  &lt;li&gt;伦理学：德性论，德性是生活的最高目的，是唯一的善。“德性”是指按照自然的本性而生活，即我们的行为与住在宇宙的法则和谐一致。最基本的德性是四主德：实践智慧、勇敢、节制和正义。最有德性的人是哲人。&lt;/li&gt;
+  &lt;li&gt;世界主义倾向：人人都有理性，所以人人平等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;罗马斯多亚学派&quot;&gt;罗马斯多亚学派&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;塞涅卡（罗马皇帝尼禄的老师）：“肉体上的快乐是不足道的，短暂的，而且是非常有害的。”&lt;/li&gt;
+  &lt;li&gt;特别强调身体与灵魂的二元论，塞涅卡主张身体是躯壳，是心灵的枷锁和监狱，强化了禁欲主义倾向。&lt;/li&gt;
+  &lt;li&gt;宿命论：任何人都不可能改变命运决定了的事， 命运决定一切，我们所能做的不过是顺应命运而已。&lt;/li&gt;
+  &lt;li&gt;塞涅卡的言行不一致，穷奢极欲，狡辩：“哲学家所谈的并不是自己怎样生活，而是应当怎样生活。我是讲美德，而不是讲我自己。”&lt;/li&gt;
+  &lt;li&gt;爱比克泰德：伦理思想的核心是忍让和克制。他的信条是服从神意、忍受命运、克制欲望。&lt;/li&gt;
+  &lt;li&gt;马可·奥勒留认为，宇宙万物是一个由神决定其内在次序的整体。&lt;/li&gt;
+  &lt;li&gt;斯多亚学派走向宿命论的原因：形而上学寻求的是统摄宇宙万物的共同根据，伦理学寻求如何生活，依照自然的本性生活，自然是必然的，那么人没有选择，因此没有自由。直到康德才有所改观。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;怀疑主义&quot;&gt;怀疑主义&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;同样是追求灵魂安宁，它选择了彻底放弃认识的方式，不做判断，不依赖感觉以及理性，对一切保持沉默。&lt;/li&gt;
+  &lt;li&gt;怀疑主义是认识论的伴生物，是新的哲学产生的契机和欠揍。&lt;/li&gt;
+  &lt;li&gt;怀疑主义的基本观念是我们不可能认识事物的本性，因为感觉往往会欺骗我们，我们无法跳出感觉去判断认识是否符合对象。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;早期怀疑主义&quot;&gt;早期怀疑主义&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;皮浪（320BC—230BC）：没有什么东西是真实存在的，只是风俗和习惯指导着人们的行为，不做判断是为了避免独断。&lt;/li&gt;
+  &lt;li&gt;它不是要我们不去生活，而是要我们免除因为认识而生的痛苦和烦恼，从而保持心灵的安宁。&lt;/li&gt;
+  &lt;li&gt;未形成理论，实践性阶段。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;晚期怀疑主义&quot;&gt;晚期怀疑主义&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;论式：揭露对方理论的自相矛盾和困境为目标。&lt;/li&gt;
+  &lt;li&gt;爱那西德穆（100BC—40BC）的十大论式（老的论证）略。&lt;/li&gt;
+  &lt;li&gt;阿格里帕（公元1世纪）的五大论式：观点分歧；无穷倒退；相对性；假设武断；循环论证。&lt;/li&gt;
+  &lt;li&gt;简化版：没有什么事物通过自身得到理解；没有什么事物通过其他事物得到理解。&lt;/li&gt;
+  &lt;li&gt;结论是，在一切情况下，我们对所显现出来的对象都不得不保留意见，不做判断。&lt;/li&gt;
+  &lt;li&gt;怀疑主义揭示了可感现象的相对性和不确定性，指出了感性认识的局限，破除人们对知识的盲目迷信。但其结论是消极的，破坏性的，客观上主张了神秘主义等非理性主义的流行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;新柏拉图主义&quot;&gt;新柏拉图主义&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;公元3世纪——公元5世纪，既是整个希腊哲学自身逻辑发展的必然结果，也是基督教神学的主要思想来源之一。&lt;/li&gt;
+  &lt;li&gt;普罗提诺（204AD—270AD）将理念等级变成三个本体，将两个世界分为四个层次，以“流溢”说明世界的改造，通过灵魂的观照与宇宙本体融为一体。&lt;/li&gt;
+  &lt;li&gt;神是绝对的“一”，也叫“太一”。“一”超越肯定的属性，不可言说和名状，只能说“不是”什么。&lt;/li&gt;
+  &lt;li&gt;“一”因完满而流溢，因流溢而产生一切，并不是神有意志地创造世界，“流溢”思想从根本上改变了早期希腊哲学的“生成补偿”观念。&lt;/li&gt;
+  &lt;li&gt;“一”首先流溢出“努斯（理智）”，是“一”的影像，反转观照原型而成为努斯，因而包含差异，也是理念世界，是思想与思想的对象的统一，是“自我思想”。&lt;/li&gt;
+  &lt;li&gt;“努斯”流溢出“灵魂”，灵魂是实体性的存在，是不朽的，是能动的，可以轮回，是努斯和可感事物的中间环节。&lt;/li&gt;
+  &lt;li&gt;灵魂渗透于身体中，身体存在于灵魂中，灵魂流溢出可感世界的一切。&lt;/li&gt;
+  &lt;li&gt;灵魂进入肉体后受到污染就堕落了，人的使命就是改造自己，经由努斯回归“一”，这就是灵魂的回归或上升之路。回归太一的途径就是哲学的静观。&lt;/li&gt;
+  &lt;li&gt;静观类似于灵魂出窍，舍弃肉体而与“一”处于一种合而为一、不可名状而又无与伦比的心醉神迷的状态，这种状态就是“解脱”。&lt;/li&gt;
+  &lt;li&gt;“一”的流溢过程构成它哲学的形而上基础，灵魂向上的回归过程则是最终目的，人神合一。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;希腊哲学小结&quot;&gt;希腊哲学小结&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;哲学源于希腊，西方所有思想体系的基础以及西方文明的基础，几乎提出了西方哲学所有的问题和解决问题的各种方式。&lt;/li&gt;
+  &lt;li&gt;哲学起源于惊异，也可以说是起源于问题。&lt;/li&gt;
+  &lt;li&gt;希腊哲学的根本精神是爱智慧，尚思辨，学以致用的探索精神。&lt;/li&gt;
+  &lt;li&gt;西方哲学是希腊哲学和基督教思想相互融合的结果。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">第六讲 晚期希腊哲学</summary></entry><entry><title type="html">西方哲学读书笔记5-亚里士多德的形而上学</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch5.html" rel="alternate" type="text/html" title="西方哲学读书笔记5-亚里士多德的形而上学" /><published>2019-09-20T21:28:55-04:00</published><updated>2019-09-20T21:28:55-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch5</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch5.html">&lt;h2 id=&quot;第五讲-亚里士多德的形而上学&quot;&gt;第五讲 亚里士多德的形而上学&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;苏格拉底：469BC——399BC&lt;/li&gt;
+  &lt;li&gt;柏拉图：427BC——347BC&lt;/li&gt;
+  &lt;li&gt;亚里士多德：384BC——322BC&lt;/li&gt;
+  &lt;li&gt;“吾爱吾师，但吾更爱真理”——亚里士多德&lt;strong&gt;追求真理&lt;/strong&gt;作为哲学的第一要务。&lt;/li&gt;
+  &lt;li&gt;使哲学成为科学的唯一可能性就在于哲学的&lt;strong&gt;体系性&lt;/strong&gt;。统一的体系将解决所有的哲学问题。古代哲学家着重研究问题，而近代哲学家则千方百计维护自己的体系。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;科学分类&quot;&gt;科学分类&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;亚里士多德的哲学活动集中体现了希腊哲学的基本精神，即学以致知，为知识追求知识。求知是人的本性。&lt;/li&gt;
+  &lt;li&gt;亚里士多德认为，哲学源于“惊异”，哲学是求知，&lt;strong&gt;求知本身就是目的&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;知识分为三大类：
+    &lt;ul&gt;
+      &lt;li&gt;理论知识，为自身而被追求的知识，包括物理学（自然哲学）、数学和第一哲学（神学或后人所谓的形而上学或本体论）。&lt;/li&gt;
+      &lt;li&gt;实践知识，为行动而被追求的知识，包括伦理学（关乎个人）、家政学（关乎家庭，即经济学）和政治学。&lt;/li&gt;
+      &lt;li&gt;创制知识，为创作而被追求的知识，包括修辞学、诗学和辩证法。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;逻辑学不是知识，而是工具或方法，亚里士多德认为逻辑是客观的形式和规则，而非主观。&lt;/li&gt;
+  &lt;li&gt;亚里士多德的任务是消除柏拉图两个世界的鸿沟，发现一般和个别之间的真实关系，这也是逻辑的任务。认识的形式和规则就是从一般到特殊的推论，这就是逻辑的三段论推理。&lt;/li&gt;
+  &lt;li&gt;从逻辑学开始，抽象化和符号化的形式逻辑，及欧几里得几何学，中国哲学和西方哲学开始走向不同道路。&lt;/li&gt;
+  &lt;li&gt;数学对哲学的影响很深。柏拉图唯独推崇数学，几何学，学园门口写着“不懂几何学者不得入内”。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;原因论&quot;&gt;原因论&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;亚里士多德对以往的哲学进行了总结和概括。&lt;/li&gt;
+  &lt;li&gt;以往哲学都是在认识事物的“原因”，即一切事物存在和生成的全部根据和条件，形而上学中称为“条件”。&lt;/li&gt;
+  &lt;li&gt;根本原因有四个：
+    &lt;ol&gt;
+      &lt;li&gt;质料因，“所从出的东西”，即事物由之生成并继续存留于中的东西，是“载体”的首要含义。对应自然哲学和宇宙论，本原问题。&lt;/li&gt;
+      &lt;li&gt;形式因，分两层含义。内在形式，“是其所是”，即本质；外在形式，即形状，表现于外的样子。对应苏格拉底的“是什么”。&lt;/li&gt;
+      &lt;li&gt;动力因，使事物开始运动的初始东西。事物分两类，自然而存在的事物和由于技术而存在的事物。&lt;/li&gt;
+      &lt;li&gt;所为因，即目的因。对应苏格拉底（柏拉图）的“善”。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;四种原因又被归结为两个原因：质料因和形式因（后三种原因）。&lt;/li&gt;
+  &lt;li&gt;从质料到形式不断发展的过程就是从潜能到实现的转化过程。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;形而上学&quot;&gt;形而上学&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;形而上学：“物理学之后”，“第一哲学”，在科学的探索中，首先应该得到询问的问题。&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“形而上者谓之道，形而下者谓之器”。—— 《周易》&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;存在论&quot;&gt;存在论&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;本体论（ontology）是形而上学的同义词，研究“存在”，即形而上学研究作为存在的存在。&lt;/li&gt;
+  &lt;li&gt;因为存在是最高的“种”，所以我们不可能认识“存在”是什么，只能认识存在是怎样存在的，即存在的存在方式。&lt;/li&gt;
+  &lt;li&gt;存在的存在方式有两种，偶然的存在方式和本然的存在方式。&lt;/li&gt;
+  &lt;li&gt;研究“存在”本然的存在方式，就是“范畴”，就是“关于…的学说”，表示在判断中论述主词的谓词。&lt;/li&gt;
+  &lt;li&gt;亚里士多德区别于柏拉图：确实存在着一般性的东西，但是它们不能脱离具体事物而独立存在。事物的本质（形式）与组成事物的材料（质料）密不可分，以个别的具体事物为存在的前提。&lt;/li&gt;
+  &lt;li&gt;十个最基本的范畴：实体、数量、性质、关系、地点、时间、状态、动作、所有和承受。这十个范畴构成了世界的逻辑结构。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;实体论&quot;&gt;实体论&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“实体”就是“是什么”，“是其所是”，相当于我们所说的“本质”，使事物成其为这个事物的本之规定。&lt;/li&gt;
+  &lt;li&gt;近代哲学中，形而上学的任务就是研究“实体”。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;笛卡尔的定义&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“所谓实体，我们只能看做是自己存在，而其存在并不需要别的事物的一种事物”。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;斯诺宾莎的定义&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“实体，我理解为在自身之内并通过自身而被认识的东西。换言之，形成实体的概念，可以无须借助于他物的概念”。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;真正符合实体概念的就只有上帝，一种超验的至高无上的存在。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;亚里士多德对实体的定义：&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;个别的具体事物是第一实体；“形式”是第一实体；理性或神是最高实体。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;我们用以描述事物的存在方式的是命题，在命题中，所有的宾词都是对于一个主词的描述和说明，这些描述和说明就是“范畴”，而我们用来描述这个主词的范畴就是“实体”。&lt;/li&gt;
+  &lt;li&gt;实体，就是只能充当主词而不能充当宾词。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;神学&quot;&gt;神学&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;运动本身是没有生灭变化的，时间也是没有生灭变化的，所以运动和时间是永恒的，而运动和时间一定属于某个实体，所以必然存在一个永恒的不可毁灭的实体。&lt;/li&gt;
+  &lt;li&gt;任何事物总是从潜能到现实的运动，运动就是从潜能到现实的过程（中介）。&lt;/li&gt;
+  &lt;li&gt;只有不带任何质料的实体才是完全的现实性（隐德莱希），因为质料意味着潜能，就不是完全的现实。&lt;/li&gt;
+  &lt;li&gt;潜能是时间上在先，现实则是在逻辑上在先。&lt;/li&gt;
+  &lt;li&gt;“第一动者”，即“神”，即“努斯”，它自身不动却能引起万物的运动，所以是“不动的动者”。&lt;/li&gt;
+  &lt;li&gt;亚里士多德的“神”是指最高的实体、最完满的现实性、最高的目的。&lt;/li&gt;
+  &lt;li&gt;努斯是理性和理性的对象（善）的同一（当理性真正认识了善的时候），永恒处于这种同一的就是努斯，就是神。对善的思想和认识是一种“静观”。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;伦理学&quot;&gt;伦理学&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“伦理”一词出自“习惯”。&lt;/li&gt;
+  &lt;li&gt;德性分为理智德性和伦理德性。理智德性由教导而来，伦理德性由社会规范风俗习惯而来。&lt;/li&gt;
+  &lt;li&gt;伦理学探讨的是两个问题，什么是最好的生活方式？当情况不明显的时候，我们怎样确定什么是应该做的？&lt;/li&gt;
+  &lt;li&gt;亚里士多德把最好的生活方式称为“幸福”。万物的目的总称是“善”。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;幸福就是合乎德性的实现活动。&lt;/strong&gt;人的德性（本性）是按照理性的现实活动。道德是实践活动，关键看行为。&lt;/li&gt;
+  &lt;li&gt;灵魂中有三样东西：情感、能力和品质，德性是一种品质。好的品质是选择行为的“中道”。&lt;/li&gt;
+  &lt;li&gt;实践智慧，是伦理理性，即人寻求对他自身好（善，有益）和坏（恶，无益）的理性的品质和行为的能力，也就是辨别和选择善恶、利害的能力。&lt;/li&gt;
+  &lt;li&gt;思辨是最高的幸福。因为既然努斯（理性）是人的本性，按照努斯进行思辨活动就是人的最高幸福。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;古典时期小结&quot;&gt;古典时期小结&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;苏格拉底、柏拉图、亚里士多德代表了希腊哲学的最高水平，西方哲学以此为奠基。&lt;/li&gt;
+  &lt;li&gt;1) 苏格拉底对“是什么”问题的探索 2) 柏拉图关于两个世界的划分以及他的体系框架 3) 亚里士多德的推理分析方法，以理性主义的基调为西方哲学确立了基本的观念和方向。&lt;/li&gt;
+  &lt;li&gt;三代人的思考基本上都是围绕知识问题展开的，但认识论还很不发达。&lt;/li&gt;
+  &lt;li&gt;早期的“一”与“多”之争，即自然万物统一的本原与千变万化多种多样事物之间的关系，“一般”与“个别”的关系，到了经院哲学构成“唯识论”与“唯名论”之争。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">第五讲 亚里士多德的形而上学</summary></entry><entry><title type="html">西方哲学读书笔记3-苏格拉底的问题</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch3.html" rel="alternate" type="text/html" title="西方哲学读书笔记3-苏格拉底的问题" /><published>2019-09-20T21:28:00-04:00</published><updated>2019-09-20T21:28:00-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch3</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch3.html">&lt;h2 id=&quot;第三讲-苏格拉底的问题&quot;&gt;第三讲 苏格拉底的问题&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;BC5-BC4-40：“雅典时期”的希腊哲学是繁荣时期。&lt;/li&gt;
+  &lt;li&gt;苏格拉底之前的自然哲学为“前苏格拉底哲学”&lt;/li&gt;
+  &lt;li&gt;师生关系；苏格拉底-&amp;gt;柏拉图-&amp;gt;亚里士多德&lt;/li&gt;
+  &lt;li&gt;人类的导师：苏格拉底、孔子、释迦摩尼、耶稣&lt;/li&gt;
+  &lt;li&gt;苏格拉底主要面对的问题是知识的问题，也就是“是什么”的问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;智者运动&quot;&gt;智者运动&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;智者：一批收费授徒、重点教授修辞学和论辩术并以此为职业的教师。&lt;/li&gt;
+  &lt;li&gt;哲学家的智慧=知识，智者的智慧=意见&lt;/li&gt;
+  &lt;li&gt;智者具有明显的感觉主义、相对主义和怀疑主义的倾向。&lt;/li&gt;
+  &lt;li&gt;城邦民主制度意味着话语具有压倒其他一切权力手段的特殊优势：孕育了智者、修辞学、诡辩术。&lt;/li&gt;
+  &lt;li&gt;第一个智者：普罗泰戈拉。“人是万物的尺度”、“一切理论都有其对立的说法”&lt;/li&gt;
+  &lt;li&gt;问题在于他们只关注论辩的效果，而非真假、善恶。因此智者的产生也标志着雅典民主制的衰落。&lt;/li&gt;
+  &lt;li&gt;希腊人的观念里：人人都禀赋正义，都是天生的公民，都有参政议政，参与决定城邦大事的权利。（理想化）&lt;/li&gt;
+  &lt;li&gt;普罗泰戈拉认为人不同于动物的根本特征在于人的技术和智慧，城邦起源于人类自我保护的本能。（被看做是社会契约论的渊源）&lt;/li&gt;
+  &lt;li&gt;高尔吉亚，继承巴门尼德、芝诺研究“存在”：“无物存在”、“即使有物存在，也不可认识”“即使能认识存在，也无法把它说出来告诉别人”&lt;/li&gt;
+  &lt;li&gt;高尔吉亚用论证去证明，而不是自然哲学家那种独断式的，因此智者一定程度对逻辑学是有贡献的。&lt;/li&gt;
+  &lt;li&gt;智者所引发的问题：普遍性的知识究竟是否可能？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;苏格拉底之死&quot;&gt;苏格拉底之死&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;黑格尔的悲剧理论：悲剧是矛盾的双方都没有错，都有各自的道理，只不过由于两者的道理是相互冲突的，从而造成了无法挽回的后果。&lt;/li&gt;
+  &lt;li&gt;苏格拉底之死也是这样一出悲剧：城邦（城邦民主制）VS苏格拉底（自己的原则）&lt;/li&gt;
+  &lt;li&gt;两个罪名：教唆年轻人反对长辈——“教唆罪”；不尊重和信仰城邦的守护神，信自己（真理）的守护神&lt;/li&gt;
+  &lt;li&gt;苏格拉底认为尊重长辈但不能盲从，需要判断是非对错，首先应该遵从真理&lt;/li&gt;
+  &lt;li&gt;苏格拉底主张专家治国论——与城邦民主制相互矛盾&lt;/li&gt;
+  &lt;li&gt;苏格拉底不愿交付罚金，被判死刑，也不愿逃走——“找死”，或许能唤醒雅典人&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;德性即知识&quot;&gt;德性即知识&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;苏格拉底的聪明在于知道自己的无知，以与人对话为职业，目的在于揭露人们的无知，促使人们求知。&lt;/li&gt;
+  &lt;li&gt;苏格拉底认为只有知识能救雅典。&lt;/li&gt;
+  &lt;li&gt;怎样获得知识？“认识你自己”——希腊德尔菲神庙门楣上的铭言&lt;/li&gt;
+  &lt;li&gt;自然万物真正的主宰和原因并不是物质性的本原，而是它的内在目的，即“善”。&lt;/li&gt;
+  &lt;li&gt;“善”不是伦理学概念，而是泛指事物自身的本性，也就是它们追求实现的目标。人是“德性”。&lt;/li&gt;
+  &lt;li&gt;“德性”由神平均分配给每个人，但只是潜在地拥有，需要在理性指导下认识自己，所以苏格拉底认为，未经审慎的生活是没有价值的，一个人只有真正认识了他自己，才能实现自己的本性，完成自己的使命，成为一个有德性的人&lt;/li&gt;
+  &lt;li&gt;苏格拉底将德性和知识等同起来：“知识即德性，无知即罪恶”“无人有意作恶”——奠定了理性主义伦理学的基础，称之为伦理学的创始人&lt;/li&gt;
+  &lt;li&gt;他的问题是，并非有了知识就有了“德性”，人性不等于理性；但他自己确实是实践哲学家&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;是什么的问题&quot;&gt;“是什么”的问题&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;希腊哲学的基本问题是知识问题。苏格拉底要解决知识问题，不仅要说明获得知识是可能的，而且还要说明获得知识的具体途径&lt;/li&gt;
+  &lt;li&gt;他所理解的知识乃是对事物之一般、普遍的类本质的认识，使一事物成为该事物的本质规定&lt;/li&gt;
+  &lt;li&gt;亚里士多德把两项贡献归功于苏格拉底，“归纳论证”和“普遍定义”&lt;/li&gt;
+  &lt;li&gt;苏格拉底对概念定义的探索推进了柏拉图理念论的产生，但他并没有把普遍从特殊事物中分离出来（后人成为概念论，区别于柏拉图的理念论）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;助产术&quot;&gt;助产术&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;苏格拉底的“助产术”被他成为“辩证法”，辩证法的本意就是“对话”。黑格尔将苏格拉底、赫拉克利特和芝诺看做是辩证法的创始人&lt;/li&gt;
+  &lt;li&gt;助产术采用问答法，四个环节是反讥、归纳、诱导和定义&lt;/li&gt;
+  &lt;li&gt;反讥——打消傲气&lt;/li&gt;
+  &lt;li&gt;归纳——片面否定&lt;/li&gt;
+  &lt;li&gt;诱导——启发比喻（不强加观点，让对方自己去领会和体悟）&lt;/li&gt;
+  &lt;li&gt;定义——认识概念&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">第三讲 苏格拉底的问题</summary></entry><entry><title type="html">西方哲学读书笔记4-柏拉图的“洞穴”</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch4.html" rel="alternate" type="text/html" title="西方哲学读书笔记4-柏拉图的“洞穴”" /><published>2019-09-20T21:28:00-04:00</published><updated>2019-09-20T21:28:00-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch4</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch4.html">&lt;h2 id=&quot;第四讲-柏拉图的洞穴&quot;&gt;第四讲 柏拉图的“洞穴”&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;柏拉图对哲学的贡献在于把巴门尼德—苏格拉底的思路确定下来，奠定了西方哲学的基本观念。&lt;/li&gt;
+  &lt;li&gt;柏拉图通过“洞穴”比喻来区分假相的世界和真实的世界，前者被称为“可感世界”，后者被称为“理念世界”，相当于我们所说的现象和本质。&lt;/li&gt;
+  &lt;li&gt;眼前的世界不过是假相，假相背后的本质才是真实的存在，而真实的存在只有思想才能把握。&lt;/li&gt;
+  &lt;li&gt;柏拉图的洞穴比喻明确区分了现象和本质，&lt;strong&gt;主张摒弃感觉经验，以思想把握真理&lt;/strong&gt;，既&lt;strong&gt;奠定了西方哲学此后两千多年的基本思路&lt;/strong&gt;，也引发了一系列的哲学问题，比如本质与现象、一与多、一般与个别、共相与殊相、理性与感性等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;理想国&quot;&gt;理想国&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;柏拉图思考的中心问题：人的教育和城邦的组织管理&lt;/li&gt;
+  &lt;li&gt;人的灵魂由三部分构成：理性、激情、欲望&lt;/li&gt;
+  &lt;li&gt;正义的人：让理性统治激情，让激情抑制欲望&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;理想国的构成：&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;阶层&lt;/th&gt;
+          &lt;th&gt;支配&lt;/th&gt;
+          &lt;th&gt;德&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;统治者&lt;/td&gt;
+          &lt;td&gt;理性&lt;/td&gt;
+          &lt;td&gt;智慧&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;武士&lt;/td&gt;
+          &lt;td&gt;激情&lt;/td&gt;
+          &lt;td&gt;勇敢&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;生产者&lt;/td&gt;
+          &lt;td&gt;欲望&lt;/td&gt;
+          &lt;td&gt;节制&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;希腊人的四主德：智慧、勇敢、节制、正义&lt;/li&gt;
+  &lt;li&gt;柏拉图被看做是共产主义的创始人，认为私有制是一切灾难的祸根，主张平均主义。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“哲学王”思想：秉承苏格拉底的观念，认为一切工作都以知识为基础，治理国家尤其如此。&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;除非真正的哲学家获得政治权利，或者城邦中拥有权力的人，由于某种奇迹，变成了真正的哲学家，否则，人类的罪恶将永远不会停止。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;哲学王的思想是理想，是乌托邦，即无何有之乡，至于如何将理想成为现实，并不是柏拉图考虑的事。&lt;/li&gt;
+  &lt;li&gt;柏拉图的理想国方案由于不切实际，晚年退而求其次，主张法制，一定家庭和私有财产的存在。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;两个世界&quot;&gt;两个世界&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;柏拉图哲学的核心概念是“理念”，idea，希腊人对“看”十分看重，可译为“相”。&lt;/li&gt;
+  &lt;li&gt;个别事物始终处在生灭变化之中，它们是个别、相对、偶然的，而理念则是永恒不变的，它们是普遍、绝对、必然的。&lt;/li&gt;
+  &lt;li&gt;理念派生事物的方式：分有和摹仿，区别在于有无造物主，分有是无造物主的摹仿。&lt;/li&gt;
+  &lt;li&gt;理念的四大特点：
+    &lt;ol&gt;
+      &lt;li&gt;理念是事物的共相，即类概念或本质；&lt;/li&gt;
+      &lt;li&gt;理念是事物存在的依据；&lt;/li&gt;
+      &lt;li&gt;理念是事物摹仿的原型；&lt;/li&gt;
+      &lt;li&gt;理念是事物的目的，成为完满的存在。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;不同事物组成可感世界，我们对它只能有意见，它们是既存在又不存在的；它们的理念组成可知世界，我们对它们的认识才是知识。&lt;/li&gt;
+  &lt;li&gt;关于两个世界的比喻：太阳比喻、线段比喻和洞穴比喻。
+    &lt;ul&gt;
+      &lt;li&gt;太阳比喻：可感世界中太阳是主宰，太阳使得人能看见东西，正如可知世界中“善”的理念是主宰，它使人具有知识的能力。&lt;/li&gt;
+      &lt;li&gt;线段比喻：可见世界的影像之于影像的原本正如意见之于知识。人的灵魂从低到高有四个功能：猜想、相信、推论和理智。&lt;/li&gt;
+      &lt;li&gt;洞穴比喻：洞穴之于火光正如可见世界之于太阳。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;柏拉图是想让人去关注永恒的理念，而不是一般的事物。&lt;/li&gt;
+  &lt;li&gt;柏拉图的两个世界是由认识论划分的，源于感性认识和理性认识的区别，但他并不认为理性认识可以从感性认识“上升”而来，因此认识论成了问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;回忆说与灵魂转向说&quot;&gt;回忆说与灵魂转向说&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;柏拉图认为对理念的认识不能从感性经验中来，因此提出“回忆说”，他认为，我们的灵魂原本高居与天上的理念世界，具备一切知识，灵魂附体后，收到躯体的干扰和污染，遗忘了一切，经过合适的训练才能回忆起曾经遗忘的东西，所以回忆的过程就是学习的过程。&lt;/li&gt;
+  &lt;li&gt;理念存在于头脑中的什么地方？他提出“灵魂转向说”。一群人走出洞穴的过程就是灵魂转向的过程。无论怎样看壁画都无法认识真相，除非转向。&lt;/li&gt;
+  &lt;li&gt;西方古典哲学的基础和核心是形而上学，而形而上学问题必须以认识论问题的解决作为前提。&lt;/li&gt;
+  &lt;li&gt;经验论和先验论争论的核心点：
+    &lt;ol&gt;
+      &lt;li&gt;普遍必然性怎样从相对个别事物（感觉经验）中产生？&lt;/li&gt;
+      &lt;li&gt;如何知道知识与对象相一致？&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;先验论的代表人物：柏拉图，后来的笛卡尔、莱布尼茨、康德。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;对理念论的反思&quot;&gt;对理念论的反思&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;第一，关于理念的普遍性问题。理念如果是善的，恶又是怎么产生的？善和恶是同源的吗？&lt;/li&gt;
+  &lt;li&gt;第二，关于理念被分有问题。事物分有理念整体还是分有一部分？而理念的首要特性是单一完整性。悖论。&lt;/li&gt;
+  &lt;li&gt;第三，“第三者”难题。理念和具有理念的事物还可以抽象出第三者，一个新的理念，以至无穷。&lt;/li&gt;
+  &lt;li&gt;第四，“分离”问题。理念是独立于事物之外的存在，因此理念世界和事物世界之间的联系是切断的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;通种论&quot;&gt;通种论&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;最普遍的六个理念，称为“种”，即存在、非存在、运动、静止、相同、相异。
+    &lt;ol&gt;
+      &lt;li&gt;存在与非存在能否彼此结合分有？
+        &lt;ul&gt;
+          &lt;li&gt;存在与非存在是不同的东西，但是非存在也是一种存在。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;运动与静止能否彼此结合分有？
+        &lt;ul&gt;
+          &lt;li&gt;具体来说，不能。但运动本身是静止的。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;相同与相异能否彼此结合分有？
+        &lt;ul&gt;
+          &lt;li&gt;与自己是相同，与其他范畴相异。因此可以相互结合，是对立统一。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;存在与运动、静止、相同、相异能否彼此结合分有？
+        &lt;ul&gt;
+          &lt;li&gt;都可以。因为事物是运动的，理念是静止的，但他们都是存在。存在与自身相同，与其他相异。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;非存在与运动、静止、相同、相异能否彼此结合分有？
+        &lt;ul&gt;
+          &lt;li&gt;都可以。相对于对立的概念而言，自己就是非存在。比如，对于运动而言，静止就是非存在。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;通种论是范畴理论的起源，范畴理论探讨的是世界的逻辑结构。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;摹仿创世说&quot;&gt;摹仿创世说&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;柏拉图非常轻视自然哲学，但也提出了自己不同于以往的自然哲学。&lt;/li&gt;
+  &lt;li&gt;宇宙的创造者即“得穆革”，柏拉图也称之为神，看到理性比非理性好，将理性放入灵魂，将灵魂放入躯体，将宇宙创造成为一个有理性和灵魂的生物。他创造所依据的模型是永恒不变、自我同一的理念，同时还需要材料和场所。材料是水、火、土、气等，在创世之前就混沌存在，场所是空间，犹如宇宙万物之母。&lt;/li&gt;
+  &lt;li&gt;柏拉图的创世论是一种理性的目的论，不是无中生有，而是将原来没有秩序的东西变成有序。&lt;/li&gt;
+  &lt;li&gt;创造的顺序依次是，神的影像“世界灵魂”（使事物受理念支配）和时间，天体，动物，人。人首先是理性，然后是非理性，最后是肉体。因为人独具理性灵魂，所以人是万物之灵。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">第四讲 柏拉图的“洞穴”</summary></entry><entry><title type="html">西方哲学读书笔记2-哲学的诞生</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch2.html" rel="alternate" type="text/html" title="西方哲学读书笔记2-哲学的诞生" /><published>2019-09-20T21:27:30-04:00</published><updated>2019-09-20T21:27:30-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch2</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch2.html">&lt;h2 id=&quot;第二讲哲学的诞生&quot;&gt;第二讲：哲学的诞生&lt;/h2&gt;
+
+&lt;h3 id=&quot;希腊思想的起源&quot;&gt;希腊思想的起源&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;时间：公元前6世纪开始形成，延续到公元6世纪初，公元529年东罗马帝国关闭最后一所柏拉图学园为终结。&lt;/li&gt;
+  &lt;li&gt;四个时期：希腊古典时期，希腊化时期，罗马共和国时期，罗马帝国时期。&lt;/li&gt;
+  &lt;li&gt;讨论：为什么哲学诞生于希腊？为什么会诞生希腊文明？&lt;/li&gt;
+  &lt;li&gt;克里特-迈锡尼文明——公元前3000年，希腊人自己都不知道，中央集权制帝国。&lt;/li&gt;
+  &lt;li&gt;公元前12世纪该文明瓦解，希腊文明出现断层——才奠定诞生城邦制的条件。&lt;/li&gt;
+  &lt;li&gt;法国韦尔南道：哲学是城邦的女儿——公民有独立自主性，城邦事务由公民民主表决，政权掌握在公民手中而不是少数人，思想自由——相当先进的思想。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;话语的威力，公开活动的兴起，公民的平等地位，为哲学的诞生准备了条件。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;希腊自然观：是将城邦的秩序和法则投射到自然宇宙；而其他文明是将宗教神话、宗法制度投射到自然。&lt;/li&gt;
+  &lt;li&gt;人类文明发展要克服外在和内在的限制，外在是自然，内在是克服外在限制时形成社会时那些维系社会的因素。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;希腊哲学的基本特征&quot;&gt;希腊哲学的基本特征&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;希腊哲学的主题是获得&lt;strong&gt;关于宇宙万物的必然性或规律的认识&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;希腊人认为&lt;strong&gt;命运和必然性&lt;/strong&gt;主宰一切，而不是神主宰。但对命运采取义无反顾地逃避和抗争。例：俄狄浦斯、苏格拉底。&lt;/li&gt;
+  &lt;li&gt;特征：朴素直观性、经验主义、宇宙论性质&lt;/li&gt;
+  &lt;li&gt;朴素直观性：从感性表象中产生抽象概念。从而诞生思辨思维（也叫理论思维、抽象思维）；&lt;/li&gt;
+  &lt;li&gt;经验主义：从经验出发，通过经验去说明经验。“就事论事”，没有本质和现象的区分，所以充满矛盾；&lt;/li&gt;
+  &lt;li&gt;宇宙论：认为宇宙自然、城邦国家和人同质同构。解释自然，不改造自然。早期核心问题是宇宙万物的本原和生成演变过程。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;宇宙论的问题&quot;&gt;宇宙论的问题&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;第一个问题：为什么存在着的东西存在，而不是归于虚无呢？&lt;/li&gt;
+  &lt;li&gt;本原：在生灭变化中，存在着某种始终不变的东西，亚里士多德称之为本原。&lt;/li&gt;
+  &lt;li&gt;本原的两个特点是，既是开端，也是主宰。&lt;/li&gt;
+  &lt;li&gt;希腊时代还没有本质和现象的区分，只有自然现象和这种现象的原因。&lt;/li&gt;
+  &lt;li&gt;本原问题有两个：一是本原是什么，二是使自然万物运动变化的动力是什么。（运动变化也叫作“生成”）&lt;/li&gt;
+  &lt;li&gt;本原在这里是说的时间上在先的东西，所用的水、火、土、气既是自然元素，也是哲学概念。&lt;/li&gt;
+  &lt;li&gt;当时还没有那么多的抽象概念，所以更多时候靠自然事物的特性去替代那些抽象概念。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;泰勒斯：水；&lt;/strong&gt;流动性、易变性、可塑性、生命原则等。&lt;/li&gt;
+  &lt;li&gt;米利都学派：泰勒斯、泰勒斯的学生阿那克西曼德、阿那克西曼德的学生阿那克西美尼&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;阿那克西美尼：气；&lt;/strong&gt;生命、灵魂；本身包含生成的动力。&lt;/li&gt;
+  &lt;li&gt;本原是无定形的。无定形：万物从本原产生，生灭变化后回到本原。所以本原是一切，又什么都不是。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;赫拉克利特：火；&lt;/strong&gt;变化的永恒性，一切都在变化，唯有变是不变的。变的依据是逻各斯。&lt;/li&gt;
+  &lt;li&gt;逻各斯：规范万物运动变化的尺度 = 老子的“道” = 如今的“规律”。&lt;/li&gt;
+  &lt;li&gt;火本身不是什么，而是其他元素的燃烧。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;赫拉克利特哲学最显著的特色是朴素辩证法，黑格尔称之为辩证法的奠基人。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;毕达哥拉斯：数；&lt;/strong&gt;比起之前的概念更具普遍性和抽象性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;巴门尼德：存在论；&lt;/strong&gt;爱利亚学派；认识的两条路，真理之路，以存在为对象；意见之路，以非存在为对象。&lt;/li&gt;
+  &lt;li&gt;非存在不是不存在，是既存在也不存在，既不能被思想也不能被叙说。而存在是可以思想和叙说的。知识的唯一途径是真理之路。&lt;/li&gt;
+  &lt;li&gt;赫拉克利特强调运动变化，万物是多；巴门尼德强调静止不动，存在是一。&lt;/li&gt;
+  &lt;li&gt;亚里士多德“无穷后退不可能”原则：必须有一个确定无疑的立足点而不能无休止地追溯其根据。否则知识是不可能的。知识：普遍必然。&lt;/li&gt;
+  &lt;li&gt;巴门尼德：思维与存在具有同一性，作为存在和作为思维是一回事。&lt;/li&gt;
+  &lt;li&gt;认识的目的：达到与对象的同一性；通过理性认识的方式认识万物的本质。&lt;/li&gt;
+  &lt;li&gt;巴门尼德将“存在”作为哲学研究的对象，象征西方哲学从宇宙生成论转向本体论。之前：时间在先的；巴门尼德：逻辑在先的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;本体论：关于“存在”的理论。存在：to be，或“是”，不是指exist。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;巴门尼德：本原不是不变的，也在变化之中。真正不变的是“是”。一切东西首先“是”，然后才是“什么”。&lt;/li&gt;
+  &lt;li&gt;存在不仅是所有事物中唯一不变的东西，而且它也是一切存在着的东西之所以存在的前提和根据。&lt;/li&gt;
+  &lt;li&gt;逻辑上在先：决定事物的不是构成事物的根本，而是它的定义、概念和本质。&lt;/li&gt;
+  &lt;li&gt;芝诺是巴门尼德的学生。著名悖论：“阿基里斯追龟”、“二分法”、“飞矢不动”。证明，运动是不可能的。百度：运动不可分？&lt;/li&gt;
+  &lt;li&gt;黑格尔到恩格斯以后，人们用运动本身就是因为矛盾才是可能的来回答芝诺的挑战，但问题并没有被解决，至今仍在研究。&lt;/li&gt;
+  &lt;li&gt;希腊人研究自然的目的：“拯救现象”，为现象提供合理的根据和说明。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;德谟克利特：原子论；&lt;/strong&gt;原子：不可分的最小单位，是存在。虚空：非存在，是原子运动的场所。&lt;/li&gt;
+  &lt;li&gt;原子论较好地解释了自然万物的统一性和多样性，万物由同一种东西组成，但原子之间有形状、位置、秩序的不同。&lt;/li&gt;
+  &lt;li&gt;原子论具有机械论的色彩。机械论：运动和变化体现为单纯量的组合与分解。&lt;/li&gt;
+  &lt;li&gt;原子论转向多元论，相比巴门尼德的一元论。&lt;/li&gt;
+  &lt;li&gt;原子论哲学的创立标志着早期希腊自然科学的结束。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">第二讲：哲学的诞生</summary></entry></feed>

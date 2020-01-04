@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+我从小就有梦想成为老师。我在学习知识的过程中常能体会到“新知”带来的快感，也会因为自己的知识体系获得了完善而欢呼雀跃。骨子里我希望自己成为一个博学的人，所以内心里我常常会有一丝恐慌，那是由于世界上总有一些陌生的角落等待着我去发现，发现原来我了解的东西还太少。但一旦我的认知边界得到扩展，我又有着极大的热情将他们分享给我的朋友们，你可以说我“好为人师”，也可以说我“喜欢炫耀”，但是在我的讲解之后，对方能多多少少有些收获，便足以让我感到极大的幸福。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+希望这里的文字能带给你一些愉悦、启发，乃至顿悟。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Simon Luo

@@ -2,8 +2,9 @@
 layout: post
 title:  "向死的人生"
 date:   2019-09-20 20:29:00 -0500
-categories: others
+categories: essay
 published: false
+tag: [随笔]
 ---
 
 ## 不变性

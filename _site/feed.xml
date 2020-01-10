@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-05T22:06:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ENIAC’s Blog</title><subtitle>一个热爱探讨人文话题、计算机专业并希望从事教育行业的修行者。</subtitle><entry><title type="html">数据结构-讲义与复习提纲1</title><link href="http://localhost:4000/others/2019/11/04/data-structures-part1.html" rel="alternate" type="text/html" title="数据结构-讲义与复习提纲1" /><published>2019-11-04T19:29:00-05:00</published><updated>2019-11-04T19:29:00-05:00</updated><id>http://localhost:4000/others/2019/11/04/data-structures-part1</id><content type="html" xml:base="http://localhost:4000/others/2019/11/04/data-structures-part1.html">&lt;h2 id=&quot;数据结构&quot;&gt;数据结构&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-10T18:36:09-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ENIAC’s Blog</title><subtitle>一个热爱探讨人文话题、计算机专业并希望从事教育行业的修行者。</subtitle><entry><title type="html">人品重要吗？</title><link href="http://localhost:4000/essay/2020/01/09/personality-key.html" rel="alternate" type="text/html" title="人品重要吗？" /><published>2020-01-09T20:30:00-05:00</published><updated>2020-01-09T20:30:00-05:00</updated><id>http://localhost:4000/essay/2020/01/09/personality-key</id><content type="html" xml:base="http://localhost:4000/essay/2020/01/09/personality-key.html">&lt;h1 id=&quot;一&quot;&gt;（一）&lt;/h1&gt;
+
+&lt;p&gt;不知道从什么时候开始起，中国弥漫着一种奇怪的论调，一旦一个人身上有一个污点，他就好像要被人拍死，他的人格会被人鄙夷，他的言语会被人唾弃，他的行为会被人嗤之以鼻。艺人吸毒，酒驾，强奸，好像只要犯过错，就一定不可饶恕，我们借他做的一件事来质疑一个人的人品，进而质疑与他有关的一切行径。&lt;/p&gt;
+
+&lt;p&gt;一个公众人物犯错被人谴责是一种正常的社会现象，只是我们要不要给他们一个改过自新的机会？&lt;/p&gt;
+
+&lt;p&gt;我们其实是在假设一个人如果人品足够好，他是不会犯错的。所以只要犯错，那么他就是人品有问题。人品有问题，就不值得大家信任，进而名声败裂，招致骂名。具体的说，表现为，他说的做的所有事情，都会被人贴上SB的标签，不值一提，过一段时间大家也就淡忘了这个人。&lt;/p&gt;
+
+&lt;p&gt;常见的表达如：“这个瘾君子演的电影都有人看”，“这个SB的话都有人信”，诸如此类。&lt;/p&gt;
+
+&lt;p&gt;是不是一个人的人品很重要？当然。中国人的传统中，我们强调做事先做人，所以德行被放到了一个很基础的位置。良好的为人处事原则可以带来融洽的人际关系，进而在事业中得到众人扶持，更容易成功。这也就是我们今天说的“会做人”。可是人品和一个人所取得的成就是否一定相关呢？恐怕未必。&lt;/p&gt;
+
+&lt;p&gt;对于文艺工作者，我们常常期待他们“德艺双馨”。著名的壁画家米开朗琪罗在艺术上的成就是毋庸置疑的，可是他在生活中却因为完美主义追求，是个十足的拖延症，因而不守信用，做了很多承诺却没有真的兑现。而且因为他性格暴躁，与达芬奇关系不和。但是这些并不影响他是一个世界级的艺术家。方舟子是个非常优秀的科普作家，他经过科学的逻辑思维训练，写出来的文章逻辑缜密，行文通俗易懂。同时他所具有的大胆质疑权威的科学精神是今天的中国极其匮乏的精神品质。这种精神品质在中国的传统文化传统中可能并不容易找到，以至于在五四运动时期才强调要将“赛先生”（Science）引进来。可是人们却因为他对部分网民的不尊重和讽刺挖苦招致很多骂名。&lt;/p&gt;
+
+&lt;p&gt;中国人重视名声，也重视善终。但是，我们在评价一个人成就的时候，是不是应该更加全面而理性地看待，而不是用一种“人品论”，“扣帽子”的行为去抹杀？&lt;/p&gt;
+
+&lt;h1 id=&quot;二&quot;&gt;（二）&lt;/h1&gt;
+
+&lt;p&gt;那么为什么我们会潜意识里觉得他们不应该有污点呢？&lt;/p&gt;
+
+&lt;p&gt;我姑且把产生这种现象的原因叫作“完美主义人格投射”，就是我们总是假设那些光环下的人就应该是标杆，所以不应该有污点。这是对人性的错误判断，也是民众的自我欺骗。很大程度上，绝大部分人都不是完美的，甚至可以说是优缺点参半的。因为自己是不完美的，而这些公众人物就可以被人们当作某种完美主义人格的范本。我期待这个人是十全十美，不会犯错的。这样把这种期待投射到这个人身上，完成了一种“完美主义期待”，满足了我对于完美人格的幻想。常见的例子就是追星，追偶像（idol）。这个美丽的童话如此完美无瑕，人们进而变得苛刻，以至于眼里容不得一点沙子。本质上说这是人性骨子里对美好事物追求的一种理想，这理想本倒是无可厚非的。但是这种理想化的东西又极其容易被利用，被自己的虚无缥缈的逻辑欺骗， 进而被情绪化的表达煽动，形成非理性的指责。&lt;/p&gt;
+
+&lt;p&gt;另一方面，“人品”很有可能也只是一个谎言。它某种程度上说是一个人历史的行为记录的归纳，或是关于这个人过去怎么做事的一个总结。人品可以方便我们来快速判断诸如要不要与之共事或是和他成为朋友的问题，但这里面包含两个严重的谬误。第一，我们假设人是不会因为一些偶然性做一些超乎理性的决定的，可是人确实在一些情况下会做出冲动和不理性的决定。对于这些偶然犯下的错误，我们是否就要否定他整个人？第二，我们假设人几乎是不变的，从而他犯了一个错，那么以后很可能再犯。这是对于人的一种比较幼稚的想法。一旦有这样的想法，他可能还没有真正去接受“人在时间和空间的复杂性”这件事。这是说，人在不同情境（即空间）下可能做出的决定很不一样，同时在不同年龄（时间）因为看问题的想法发生变化，所以也做出了不同的决定。&lt;/p&gt;
+
+&lt;h1 id=&quot;三&quot;&gt;（三）&lt;/h1&gt;
+
+&lt;p&gt;最后，我需要说明的是，我并不是说人品就不重要。&lt;/p&gt;
+
+&lt;p&gt;从自身出发，我们需要做一个好人。其中在今天这个商业时代，最重要的品质恐怕还要回去找孔子。他说“人而无信，不知其可也。大车无輗，小车无軏，其何以行之哉？”。入世之人，最重要的就是要言而有信。确切地说，要不轻易承诺，但一旦承诺就必须做到。或者也可以借用孔子的话，先去做，然后按照做的去说。&lt;/p&gt;
+
+&lt;p&gt;从交朋友的角度来说，人品也极其重要。孔子说，“友直，友谅，友多闻，益也”。这意味着“正直”是非常重要的，正直体现在良心和正义感，意味着不做损人利己或是损人不利己的事。即使到了必须损人的时候，也力求把对问其他人的损失降到最小。假如无意伤害到别人就尽全力去弥补损失。这些都是正直的体现，也就是好的人品。不论是对家庭，对朋友，对社会，正直都是非常优秀的一个品质。&lt;/p&gt;
+
+&lt;p&gt;我想说的是，人品在实践层面是极其重要的事情。但是对于看待周围人，以及公众人物上却是一个需要我们认真审视的问题。孔子的“友谅”其实说的就是这个道理，宽容一些，我们宽容的是这个人，不是这个事。就像刑法，惩戒的是你做的坏事，惩戒的不是你这个人，所以刑满释放，你还可以重获自由。&lt;/p&gt;
+
+&lt;p&gt;希望每个人能对自己的行为负责任，但在审视他人的时候，也多一分理解和宽容。&lt;/p&gt;</content><author><name></name></author><category term="随笔" /><summary type="html">（一）</summary></entry><entry><title type="html">数据结构-讲义与复习提纲1</title><link href="http://localhost:4000/cs/2019/11/04/data-structures-part1.html" rel="alternate" type="text/html" title="数据结构-讲义与复习提纲1" /><published>2019-11-04T19:29:00-05:00</published><updated>2019-11-04T19:29:00-05:00</updated><id>http://localhost:4000/cs/2019/11/04/data-structures-part1</id><content type="html" xml:base="http://localhost:4000/cs/2019/11/04/data-structures-part1.html">&lt;h2 id=&quot;数据结构&quot;&gt;数据结构&lt;/h2&gt;
 
 &lt;p&gt;首先要弄明白的一个问题是，为什么我们需要数据结构和算法？&lt;/p&gt;
 
@@ -205,7 +239,7 @@
 &lt;p&gt;其他的奇技淫巧。&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;桶排序&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">数据结构</summary></entry><entry><title type="html">西方哲学读书笔记10-大陆理性主义</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch10.html" rel="alternate" type="text/html" title="西方哲学读书笔记10-大陆理性主义" /><published>2019-09-20T21:29:40-04:00</published><updated>2019-09-20T21:29:40-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch10</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch10.html">&lt;h2 id=&quot;第十讲-大陆理性主义&quot;&gt;第十讲 大陆理性主义&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="教程" /><summary type="html">数据结构</summary></entry><entry><title type="html">西方哲学读书笔记10-大陆理性主义</title><link href="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch10.html" rel="alternate" type="text/html" title="西方哲学读书笔记10-大陆理性主义" /><published>2019-09-20T21:29:40-04:00</published><updated>2019-09-20T21:29:40-04:00</updated><id>http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch10</id><content type="html" xml:base="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch10.html">&lt;h2 id=&quot;第十讲-大陆理性主义&quot;&gt;第十讲 大陆理性主义&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;近代哲学是“认识论的转向”。科学知识从感觉经验归纳而来，是“经验论”，从理性固有的天赋观念而来，是“唯理论”。&lt;/li&gt;
   &lt;li&gt;经验论代表是培根、洛克、巴克莱和休谟，唯理论的代表是笛卡尔、斯诺宾莎和莱布尼茨。&lt;/li&gt;
@@ -283,7 +317,7 @@
   &lt;li&gt;莱布尼茨认为宇宙万物的实体是无限多个，即单子：客观存在的无限多的，非物质性的能动性的精神实体，它是一切事物的“隐德莱希”（内在目的）。&lt;/li&gt;
   &lt;li&gt;单子具有的特征：单纯性（原子性、不可分）、无限性（无限多）、永恒性、独立性、本质差异性（每个都不一样）、自因性（出于自身为目的）。&lt;/li&gt;
   &lt;li&gt;单子的内在原则和能动的本性是“力”，每个单子都是“力的中心”，表现为“欲求”和“欲望”，即事物的内在目的。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">第十讲 大陆理性主义 近代哲学是“认识论的转向”。科学知识从感觉经验归纳而来，是“经验论”，从理性固有的天赋观念而来，是“唯理论”。 经验论代表是培根、洛克、巴克莱和休谟，唯理论的代表是笛卡尔、斯诺宾莎和莱布尼茨。 经验论的局限性是，它无法说明知识的客观有效性，也无法证明知识的普遍必然性。</summary></entry><entry><title type="html">西方哲学读书笔记9-主体性的觉醒</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch9.html" rel="alternate" type="text/html" title="西方哲学读书笔记9-主体性的觉醒" /><published>2019-09-20T21:29:30-04:00</published><updated>2019-09-20T21:29:30-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch9</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch9.html">&lt;h2 id=&quot;第九讲-主体性的觉醒&quot;&gt;第九讲 主体性的觉醒&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="哲学" /><category term="读书笔记" /><summary type="html">第十讲 大陆理性主义 近代哲学是“认识论的转向”。科学知识从感觉经验归纳而来，是“经验论”，从理性固有的天赋观念而来，是“唯理论”。 经验论代表是培根、洛克、巴克莱和休谟，唯理论的代表是笛卡尔、斯诺宾莎和莱布尼茨。 经验论的局限性是，它无法说明知识的客观有效性，也无法证明知识的普遍必然性。</summary></entry><entry><title type="html">西方哲学读书笔记9-主体性的觉醒</title><link href="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch9.html" rel="alternate" type="text/html" title="西方哲学读书笔记9-主体性的觉醒" /><published>2019-09-20T21:29:30-04:00</published><updated>2019-09-20T21:29:30-04:00</updated><id>http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch9</id><content type="html" xml:base="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch9.html">&lt;h2 id=&quot;第九讲-主体性的觉醒&quot;&gt;第九讲 主体性的觉醒&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;近代哲学主要是17世纪到19世纪末的西方哲学，划分方式不是按时间，而是按哲学形态。&lt;/li&gt;
@@ -409,7 +443,7 @@
       &lt;td&gt;上帝先定和谐，使身心协调一致。&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">第九讲 主体性的觉醒</summary></entry><entry><title type="html">西方哲学读书笔记8-人的发现</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch8.html" rel="alternate" type="text/html" title="西方哲学读书笔记8-人的发现" /><published>2019-09-20T21:29:20-04:00</published><updated>2019-09-20T21:29:20-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch8</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch8.html">&lt;h2 id=&quot;第八讲-人的发现&quot;&gt;第八讲 人的发现&lt;/h2&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="哲学" /><category term="读书笔记" /><summary type="html">第九讲 主体性的觉醒</summary></entry><entry><title type="html">西方哲学读书笔记8-人的发现</title><link href="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch8.html" rel="alternate" type="text/html" title="西方哲学读书笔记8-人的发现" /><published>2019-09-20T21:29:20-04:00</published><updated>2019-09-20T21:29:20-04:00</updated><id>http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch8</id><content type="html" xml:base="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch8.html">&lt;h2 id=&quot;第八讲-人的发现&quot;&gt;第八讲 人的发现&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;欧洲的14-16世纪是“文艺复兴时期”，复兴古希腊罗马文明，整理古希腊文献，也是“人的发现”的时代。&lt;/li&gt;
@@ -513,7 +547,7 @@
   &lt;li&gt;主张实验+适当的论证得到知识，感觉只接触到实验，实验接触到了自然和事物本身。&lt;/li&gt;
   &lt;li&gt;认识事物的形式用经验归纳法：收集资料——运用“三表法”来整理资料——进行真正的归纳。&lt;/li&gt;
   &lt;li&gt;培根不具备近代科学的新知识，所以他的思想是向近代哲学过渡的重要环节。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">第八讲 人的发现</summary></entry><entry><title type="html">西方哲学读书笔记7-信仰的时代</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch7.html" rel="alternate" type="text/html" title="西方哲学读书笔记7-信仰的时代" /><published>2019-09-20T21:29:10-04:00</published><updated>2019-09-20T21:29:10-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch7</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch7.html">&lt;h2 id=&quot;第七讲-信仰的时代&quot;&gt;第七讲 信仰的时代&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="哲学" /><category term="读书笔记" /><summary type="html">第八讲 人的发现</summary></entry><entry><title type="html">西方哲学读书笔记7-信仰的时代</title><link href="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch7.html" rel="alternate" type="text/html" title="西方哲学读书笔记7-信仰的时代" /><published>2019-09-20T21:29:10-04:00</published><updated>2019-09-20T21:29:10-04:00</updated><id>http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch7</id><content type="html" xml:base="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch7.html">&lt;h2 id=&quot;第七讲-信仰的时代&quot;&gt;第七讲 信仰的时代&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;西方哲学史：古代哲学（希腊哲学）、中古哲学（中世纪哲学）、近代哲学和现代哲学。&lt;/li&gt;
@@ -575,7 +609,7 @@
   &lt;li&gt;奥卡姆的威廉（约1300—1349）：共相不是实体也不存在于物之中，否则会违反共相的单一性，因此共相仅仅存在于灵魂之中，是概念和符号。“如无必要，勿增实体”——“奥卡姆剃刀”。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;从某种意义上说，中世纪哲学是柏拉图主义和亚里士多德思想的奇特混合物：上帝是最高的超验的实体，而整个体系则是高度抽象和形式化的。一般来说，唯实论是正统，唯名论是异端，证明理性和信仰的调和失败了。&lt;/p&gt;</content><author><name></name></author><summary type="html">第七讲 信仰的时代</summary></entry><entry><title type="html">西方哲学读书笔记6-晚期希腊哲学</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch6.html" rel="alternate" type="text/html" title="西方哲学读书笔记6-晚期希腊哲学" /><published>2019-09-20T21:29:00-04:00</published><updated>2019-09-20T21:29:00-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch6</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch6.html">&lt;h2 id=&quot;第六讲-晚期希腊哲学&quot;&gt;第六讲 晚期希腊哲学&lt;/h2&gt;
+&lt;p&gt;从某种意义上说，中世纪哲学是柏拉图主义和亚里士多德思想的奇特混合物：上帝是最高的超验的实体，而整个体系则是高度抽象和形式化的。一般来说，唯实论是正统，唯名论是异端，证明理性和信仰的调和失败了。&lt;/p&gt;</content><author><name></name></author><category term="哲学" /><category term="读书笔记" /><summary type="html">第七讲 信仰的时代</summary></entry><entry><title type="html">西方哲学读书笔记6-晚期希腊哲学</title><link href="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch6.html" rel="alternate" type="text/html" title="西方哲学读书笔记6-晚期希腊哲学" /><published>2019-09-20T21:29:00-04:00</published><updated>2019-09-20T21:29:00-04:00</updated><id>http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch6</id><content type="html" xml:base="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch6.html">&lt;h2 id=&quot;第六讲-晚期希腊哲学&quot;&gt;第六讲 晚期希腊哲学&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;希腊化时期（323BC—31BC 亚历山大的马其顿王国）和罗马时期（前1世纪—476AD/1453AD）的哲学。&lt;/li&gt;
@@ -686,7 +720,7 @@
   &lt;li&gt;哲学起源于惊异，也可以说是起源于问题。&lt;/li&gt;
   &lt;li&gt;希腊哲学的根本精神是爱智慧，尚思辨，学以致用的探索精神。&lt;/li&gt;
   &lt;li&gt;西方哲学是希腊哲学和基督教思想相互融合的结果。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">第六讲 晚期希腊哲学</summary></entry><entry><title type="html">西方哲学读书笔记5-亚里士多德的形而上学</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch5.html" rel="alternate" type="text/html" title="西方哲学读书笔记5-亚里士多德的形而上学" /><published>2019-09-20T21:28:55-04:00</published><updated>2019-09-20T21:28:55-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch5</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch5.html">&lt;h2 id=&quot;第五讲-亚里士多德的形而上学&quot;&gt;第五讲 亚里士多德的形而上学&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="哲学" /><category term="读书笔记" /><summary type="html">第六讲 晚期希腊哲学</summary></entry><entry><title type="html">西方哲学读书笔记5-亚里士多德的形而上学</title><link href="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch5.html" rel="alternate" type="text/html" title="西方哲学读书笔记5-亚里士多德的形而上学" /><published>2019-09-20T21:28:55-04:00</published><updated>2019-09-20T21:28:55-04:00</updated><id>http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch5</id><content type="html" xml:base="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch5.html">&lt;h2 id=&quot;第五讲-亚里士多德的形而上学&quot;&gt;第五讲 亚里士多德的形而上学&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;苏格拉底：469BC——399BC&lt;/li&gt;
@@ -817,75 +851,7 @@
   &lt;li&gt;1) 苏格拉底对“是什么”问题的探索 2) 柏拉图关于两个世界的划分以及他的体系框架 3) 亚里士多德的推理分析方法，以理性主义的基调为西方哲学确立了基本的观念和方向。&lt;/li&gt;
   &lt;li&gt;三代人的思考基本上都是围绕知识问题展开的，但认识论还很不发达。&lt;/li&gt;
   &lt;li&gt;早期的“一”与“多”之争，即自然万物统一的本原与千变万化多种多样事物之间的关系，“一般”与“个别”的关系，到了经院哲学构成“唯识论”与“唯名论”之争。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">第五讲 亚里士多德的形而上学</summary></entry><entry><title type="html">西方哲学读书笔记3-苏格拉底的问题</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch3.html" rel="alternate" type="text/html" title="西方哲学读书笔记3-苏格拉底的问题" /><published>2019-09-20T21:28:00-04:00</published><updated>2019-09-20T21:28:00-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch3</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch3.html">&lt;h2 id=&quot;第三讲-苏格拉底的问题&quot;&gt;第三讲 苏格拉底的问题&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;BC5-BC4-40：“雅典时期”的希腊哲学是繁荣时期。&lt;/li&gt;
-  &lt;li&gt;苏格拉底之前的自然哲学为“前苏格拉底哲学”&lt;/li&gt;
-  &lt;li&gt;师生关系；苏格拉底-&amp;gt;柏拉图-&amp;gt;亚里士多德&lt;/li&gt;
-  &lt;li&gt;人类的导师：苏格拉底、孔子、释迦摩尼、耶稣&lt;/li&gt;
-  &lt;li&gt;苏格拉底主要面对的问题是知识的问题，也就是“是什么”的问题&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;智者运动&quot;&gt;智者运动&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;智者：一批收费授徒、重点教授修辞学和论辩术并以此为职业的教师。&lt;/li&gt;
-  &lt;li&gt;哲学家的智慧=知识，智者的智慧=意见&lt;/li&gt;
-  &lt;li&gt;智者具有明显的感觉主义、相对主义和怀疑主义的倾向。&lt;/li&gt;
-  &lt;li&gt;城邦民主制度意味着话语具有压倒其他一切权力手段的特殊优势：孕育了智者、修辞学、诡辩术。&lt;/li&gt;
-  &lt;li&gt;第一个智者：普罗泰戈拉。“人是万物的尺度”、“一切理论都有其对立的说法”&lt;/li&gt;
-  &lt;li&gt;问题在于他们只关注论辩的效果，而非真假、善恶。因此智者的产生也标志着雅典民主制的衰落。&lt;/li&gt;
-  &lt;li&gt;希腊人的观念里：人人都禀赋正义，都是天生的公民，都有参政议政，参与决定城邦大事的权利。（理想化）&lt;/li&gt;
-  &lt;li&gt;普罗泰戈拉认为人不同于动物的根本特征在于人的技术和智慧，城邦起源于人类自我保护的本能。（被看做是社会契约论的渊源）&lt;/li&gt;
-  &lt;li&gt;高尔吉亚，继承巴门尼德、芝诺研究“存在”：“无物存在”、“即使有物存在，也不可认识”“即使能认识存在，也无法把它说出来告诉别人”&lt;/li&gt;
-  &lt;li&gt;高尔吉亚用论证去证明，而不是自然哲学家那种独断式的，因此智者一定程度对逻辑学是有贡献的。&lt;/li&gt;
-  &lt;li&gt;智者所引发的问题：普遍性的知识究竟是否可能？&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;苏格拉底之死&quot;&gt;苏格拉底之死&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;黑格尔的悲剧理论：悲剧是矛盾的双方都没有错，都有各自的道理，只不过由于两者的道理是相互冲突的，从而造成了无法挽回的后果。&lt;/li&gt;
-  &lt;li&gt;苏格拉底之死也是这样一出悲剧：城邦（城邦民主制）VS苏格拉底（自己的原则）&lt;/li&gt;
-  &lt;li&gt;两个罪名：教唆年轻人反对长辈——“教唆罪”；不尊重和信仰城邦的守护神，信自己（真理）的守护神&lt;/li&gt;
-  &lt;li&gt;苏格拉底认为尊重长辈但不能盲从，需要判断是非对错，首先应该遵从真理&lt;/li&gt;
-  &lt;li&gt;苏格拉底主张专家治国论——与城邦民主制相互矛盾&lt;/li&gt;
-  &lt;li&gt;苏格拉底不愿交付罚金，被判死刑，也不愿逃走——“找死”，或许能唤醒雅典人&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;德性即知识&quot;&gt;德性即知识&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;苏格拉底的聪明在于知道自己的无知，以与人对话为职业，目的在于揭露人们的无知，促使人们求知。&lt;/li&gt;
-  &lt;li&gt;苏格拉底认为只有知识能救雅典。&lt;/li&gt;
-  &lt;li&gt;怎样获得知识？“认识你自己”——希腊德尔菲神庙门楣上的铭言&lt;/li&gt;
-  &lt;li&gt;自然万物真正的主宰和原因并不是物质性的本原，而是它的内在目的，即“善”。&lt;/li&gt;
-  &lt;li&gt;“善”不是伦理学概念，而是泛指事物自身的本性，也就是它们追求实现的目标。人是“德性”。&lt;/li&gt;
-  &lt;li&gt;“德性”由神平均分配给每个人，但只是潜在地拥有，需要在理性指导下认识自己，所以苏格拉底认为，未经审慎的生活是没有价值的，一个人只有真正认识了他自己，才能实现自己的本性，完成自己的使命，成为一个有德性的人&lt;/li&gt;
-  &lt;li&gt;苏格拉底将德性和知识等同起来：“知识即德性，无知即罪恶”“无人有意作恶”——奠定了理性主义伦理学的基础，称之为伦理学的创始人&lt;/li&gt;
-  &lt;li&gt;他的问题是，并非有了知识就有了“德性”，人性不等于理性；但他自己确实是实践哲学家&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;是什么的问题&quot;&gt;“是什么”的问题&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;希腊哲学的基本问题是知识问题。苏格拉底要解决知识问题，不仅要说明获得知识是可能的，而且还要说明获得知识的具体途径&lt;/li&gt;
-  &lt;li&gt;他所理解的知识乃是对事物之一般、普遍的类本质的认识，使一事物成为该事物的本质规定&lt;/li&gt;
-  &lt;li&gt;亚里士多德把两项贡献归功于苏格拉底，“归纳论证”和“普遍定义”&lt;/li&gt;
-  &lt;li&gt;苏格拉底对概念定义的探索推进了柏拉图理念论的产生，但他并没有把普遍从特殊事物中分离出来（后人成为概念论，区别于柏拉图的理念论）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;助产术&quot;&gt;助产术&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;苏格拉底的“助产术”被他成为“辩证法”，辩证法的本意就是“对话”。黑格尔将苏格拉底、赫拉克利特和芝诺看做是辩证法的创始人&lt;/li&gt;
-  &lt;li&gt;助产术采用问答法，四个环节是反讥、归纳、诱导和定义&lt;/li&gt;
-  &lt;li&gt;反讥——打消傲气&lt;/li&gt;
-  &lt;li&gt;归纳——片面否定&lt;/li&gt;
-  &lt;li&gt;诱导——启发比喻（不强加观点，让对方自己去领会和体悟）&lt;/li&gt;
-  &lt;li&gt;定义——认识概念&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">第三讲 苏格拉底的问题</summary></entry><entry><title type="html">西方哲学读书笔记4-柏拉图的“洞穴”</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch4.html" rel="alternate" type="text/html" title="西方哲学读书笔记4-柏拉图的“洞穴”" /><published>2019-09-20T21:28:00-04:00</published><updated>2019-09-20T21:28:00-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch4</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch4.html">&lt;h2 id=&quot;第四讲-柏拉图的洞穴&quot;&gt;第四讲 柏拉图的“洞穴”&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="哲学" /><category term="读书笔记" /><summary type="html">第五讲 亚里士多德的形而上学</summary></entry><entry><title type="html">西方哲学读书笔记4-柏拉图的“洞穴”</title><link href="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch4.html" rel="alternate" type="text/html" title="西方哲学读书笔记4-柏拉图的“洞穴”" /><published>2019-09-20T21:28:00-04:00</published><updated>2019-09-20T21:28:00-04:00</updated><id>http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch4</id><content type="html" xml:base="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch4.html">&lt;h2 id=&quot;第四讲-柏拉图的洞穴&quot;&gt;第四讲 柏拉图的“洞穴”&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;柏拉图对哲学的贡献在于把巴门尼德—苏格拉底的思路确定下来，奠定了西方哲学的基本观念。&lt;/li&gt;
@@ -1035,66 +1001,72 @@
   &lt;li&gt;宇宙的创造者即“得穆革”，柏拉图也称之为神，看到理性比非理性好，将理性放入灵魂，将灵魂放入躯体，将宇宙创造成为一个有理性和灵魂的生物。他创造所依据的模型是永恒不变、自我同一的理念，同时还需要材料和场所。材料是水、火、土、气等，在创世之前就混沌存在，场所是空间，犹如宇宙万物之母。&lt;/li&gt;
   &lt;li&gt;柏拉图的创世论是一种理性的目的论，不是无中生有，而是将原来没有秩序的东西变成有序。&lt;/li&gt;
   &lt;li&gt;创造的顺序依次是，神的影像“世界灵魂”（使事物受理念支配）和时间，天体，动物，人。人首先是理性，然后是非理性，最后是肉体。因为人独具理性灵魂，所以人是万物之灵。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">第四讲 柏拉图的“洞穴”</summary></entry><entry><title type="html">西方哲学读书笔记2-哲学的诞生</title><link href="http://localhost:4000/others/2019/09/20/western-philosophy-ch2.html" rel="alternate" type="text/html" title="西方哲学读书笔记2-哲学的诞生" /><published>2019-09-20T21:27:30-04:00</published><updated>2019-09-20T21:27:30-04:00</updated><id>http://localhost:4000/others/2019/09/20/western-philosophy-ch2</id><content type="html" xml:base="http://localhost:4000/others/2019/09/20/western-philosophy-ch2.html">&lt;h2 id=&quot;第二讲哲学的诞生&quot;&gt;第二讲：哲学的诞生&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="哲学" /><category term="读书笔记" /><summary type="html">第四讲 柏拉图的“洞穴”</summary></entry><entry><title type="html">西方哲学读书笔记3-苏格拉底的问题</title><link href="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch3.html" rel="alternate" type="text/html" title="西方哲学读书笔记3-苏格拉底的问题" /><published>2019-09-20T21:28:00-04:00</published><updated>2019-09-20T21:28:00-04:00</updated><id>http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch3</id><content type="html" xml:base="http://localhost:4000/philosophy/2019/09/20/western-philosophy-ch3.html">&lt;h2 id=&quot;第三讲-苏格拉底的问题&quot;&gt;第三讲 苏格拉底的问题&lt;/h2&gt;
 
-&lt;h3 id=&quot;希腊思想的起源&quot;&gt;希腊思想的起源&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;时间：公元前6世纪开始形成，延续到公元6世纪初，公元529年东罗马帝国关闭最后一所柏拉图学园为终结。&lt;/li&gt;
-  &lt;li&gt;四个时期：希腊古典时期，希腊化时期，罗马共和国时期，罗马帝国时期。&lt;/li&gt;
-  &lt;li&gt;讨论：为什么哲学诞生于希腊？为什么会诞生希腊文明？&lt;/li&gt;
-  &lt;li&gt;克里特-迈锡尼文明——公元前3000年，希腊人自己都不知道，中央集权制帝国。&lt;/li&gt;
-  &lt;li&gt;公元前12世纪该文明瓦解，希腊文明出现断层——才奠定诞生城邦制的条件。&lt;/li&gt;
-  &lt;li&gt;法国韦尔南道：哲学是城邦的女儿——公民有独立自主性，城邦事务由公民民主表决，政权掌握在公民手中而不是少数人，思想自由——相当先进的思想。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;话语的威力，公开活动的兴起，公民的平等地位，为哲学的诞生准备了条件。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;希腊自然观：是将城邦的秩序和法则投射到自然宇宙；而其他文明是将宗教神话、宗法制度投射到自然。&lt;/li&gt;
-  &lt;li&gt;人类文明发展要克服外在和内在的限制，外在是自然，内在是克服外在限制时形成社会时那些维系社会的因素。&lt;/li&gt;
+  &lt;li&gt;BC5-BC4-40：“雅典时期”的希腊哲学是繁荣时期。&lt;/li&gt;
+  &lt;li&gt;苏格拉底之前的自然哲学为“前苏格拉底哲学”&lt;/li&gt;
+  &lt;li&gt;师生关系；苏格拉底-&amp;gt;柏拉图-&amp;gt;亚里士多德&lt;/li&gt;
+  &lt;li&gt;人类的导师：苏格拉底、孔子、释迦摩尼、耶稣&lt;/li&gt;
+  &lt;li&gt;苏格拉底主要面对的问题是知识的问题，也就是“是什么”的问题&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;希腊哲学的基本特征&quot;&gt;希腊哲学的基本特征&lt;/h3&gt;
+&lt;h3 id=&quot;智者运动&quot;&gt;智者运动&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;希腊哲学的主题是获得&lt;strong&gt;关于宇宙万物的必然性或规律的认识&lt;/strong&gt;。&lt;/li&gt;
-  &lt;li&gt;希腊人认为&lt;strong&gt;命运和必然性&lt;/strong&gt;主宰一切，而不是神主宰。但对命运采取义无反顾地逃避和抗争。例：俄狄浦斯、苏格拉底。&lt;/li&gt;
-  &lt;li&gt;特征：朴素直观性、经验主义、宇宙论性质&lt;/li&gt;
-  &lt;li&gt;朴素直观性：从感性表象中产生抽象概念。从而诞生思辨思维（也叫理论思维、抽象思维）；&lt;/li&gt;
-  &lt;li&gt;经验主义：从经验出发，通过经验去说明经验。“就事论事”，没有本质和现象的区分，所以充满矛盾；&lt;/li&gt;
-  &lt;li&gt;宇宙论：认为宇宙自然、城邦国家和人同质同构。解释自然，不改造自然。早期核心问题是宇宙万物的本原和生成演变过程。&lt;/li&gt;
+  &lt;li&gt;智者：一批收费授徒、重点教授修辞学和论辩术并以此为职业的教师。&lt;/li&gt;
+  &lt;li&gt;哲学家的智慧=知识，智者的智慧=意见&lt;/li&gt;
+  &lt;li&gt;智者具有明显的感觉主义、相对主义和怀疑主义的倾向。&lt;/li&gt;
+  &lt;li&gt;城邦民主制度意味着话语具有压倒其他一切权力手段的特殊优势：孕育了智者、修辞学、诡辩术。&lt;/li&gt;
+  &lt;li&gt;第一个智者：普罗泰戈拉。“人是万物的尺度”、“一切理论都有其对立的说法”&lt;/li&gt;
+  &lt;li&gt;问题在于他们只关注论辩的效果，而非真假、善恶。因此智者的产生也标志着雅典民主制的衰落。&lt;/li&gt;
+  &lt;li&gt;希腊人的观念里：人人都禀赋正义，都是天生的公民，都有参政议政，参与决定城邦大事的权利。（理想化）&lt;/li&gt;
+  &lt;li&gt;普罗泰戈拉认为人不同于动物的根本特征在于人的技术和智慧，城邦起源于人类自我保护的本能。（被看做是社会契约论的渊源）&lt;/li&gt;
+  &lt;li&gt;高尔吉亚，继承巴门尼德、芝诺研究“存在”：“无物存在”、“即使有物存在，也不可认识”“即使能认识存在，也无法把它说出来告诉别人”&lt;/li&gt;
+  &lt;li&gt;高尔吉亚用论证去证明，而不是自然哲学家那种独断式的，因此智者一定程度对逻辑学是有贡献的。&lt;/li&gt;
+  &lt;li&gt;智者所引发的问题：普遍性的知识究竟是否可能？&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;宇宙论的问题&quot;&gt;宇宙论的问题&lt;/h3&gt;
+&lt;h3 id=&quot;苏格拉底之死&quot;&gt;苏格拉底之死&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;第一个问题：为什么存在着的东西存在，而不是归于虚无呢？&lt;/li&gt;
-  &lt;li&gt;本原：在生灭变化中，存在着某种始终不变的东西，亚里士多德称之为本原。&lt;/li&gt;
-  &lt;li&gt;本原的两个特点是，既是开端，也是主宰。&lt;/li&gt;
-  &lt;li&gt;希腊时代还没有本质和现象的区分，只有自然现象和这种现象的原因。&lt;/li&gt;
-  &lt;li&gt;本原问题有两个：一是本原是什么，二是使自然万物运动变化的动力是什么。（运动变化也叫作“生成”）&lt;/li&gt;
-  &lt;li&gt;本原在这里是说的时间上在先的东西，所用的水、火、土、气既是自然元素，也是哲学概念。&lt;/li&gt;
-  &lt;li&gt;当时还没有那么多的抽象概念，所以更多时候靠自然事物的特性去替代那些抽象概念。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;泰勒斯：水；&lt;/strong&gt;流动性、易变性、可塑性、生命原则等。&lt;/li&gt;
-  &lt;li&gt;米利都学派：泰勒斯、泰勒斯的学生阿那克西曼德、阿那克西曼德的学生阿那克西美尼&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;阿那克西美尼：气；&lt;/strong&gt;生命、灵魂；本身包含生成的动力。&lt;/li&gt;
-  &lt;li&gt;本原是无定形的。无定形：万物从本原产生，生灭变化后回到本原。所以本原是一切，又什么都不是。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;赫拉克利特：火；&lt;/strong&gt;变化的永恒性，一切都在变化，唯有变是不变的。变的依据是逻各斯。&lt;/li&gt;
-  &lt;li&gt;逻各斯：规范万物运动变化的尺度 = 老子的“道” = 如今的“规律”。&lt;/li&gt;
-  &lt;li&gt;火本身不是什么，而是其他元素的燃烧。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;赫拉克利特哲学最显著的特色是朴素辩证法，黑格尔称之为辩证法的奠基人。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;毕达哥拉斯：数；&lt;/strong&gt;比起之前的概念更具普遍性和抽象性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;巴门尼德：存在论；&lt;/strong&gt;爱利亚学派；认识的两条路，真理之路，以存在为对象；意见之路，以非存在为对象。&lt;/li&gt;
-  &lt;li&gt;非存在不是不存在，是既存在也不存在，既不能被思想也不能被叙说。而存在是可以思想和叙说的。知识的唯一途径是真理之路。&lt;/li&gt;
-  &lt;li&gt;赫拉克利特强调运动变化，万物是多；巴门尼德强调静止不动，存在是一。&lt;/li&gt;
-  &lt;li&gt;亚里士多德“无穷后退不可能”原则：必须有一个确定无疑的立足点而不能无休止地追溯其根据。否则知识是不可能的。知识：普遍必然。&lt;/li&gt;
-  &lt;li&gt;巴门尼德：思维与存在具有同一性，作为存在和作为思维是一回事。&lt;/li&gt;
-  &lt;li&gt;认识的目的：达到与对象的同一性；通过理性认识的方式认识万物的本质。&lt;/li&gt;
-  &lt;li&gt;巴门尼德将“存在”作为哲学研究的对象，象征西方哲学从宇宙生成论转向本体论。之前：时间在先的；巴门尼德：逻辑在先的。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;本体论：关于“存在”的理论。存在：to be，或“是”，不是指exist。&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;巴门尼德：本原不是不变的，也在变化之中。真正不变的是“是”。一切东西首先“是”，然后才是“什么”。&lt;/li&gt;
-  &lt;li&gt;存在不仅是所有事物中唯一不变的东西，而且它也是一切存在着的东西之所以存在的前提和根据。&lt;/li&gt;
-  &lt;li&gt;逻辑上在先：决定事物的不是构成事物的根本，而是它的定义、概念和本质。&lt;/li&gt;
-  &lt;li&gt;芝诺是巴门尼德的学生。著名悖论：“阿基里斯追龟”、“二分法”、“飞矢不动”。证明，运动是不可能的。百度：运动不可分？&lt;/li&gt;
-  &lt;li&gt;黑格尔到恩格斯以后，人们用运动本身就是因为矛盾才是可能的来回答芝诺的挑战，但问题并没有被解决，至今仍在研究。&lt;/li&gt;
-  &lt;li&gt;希腊人研究自然的目的：“拯救现象”，为现象提供合理的根据和说明。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;德谟克利特：原子论；&lt;/strong&gt;原子：不可分的最小单位，是存在。虚空：非存在，是原子运动的场所。&lt;/li&gt;
-  &lt;li&gt;原子论较好地解释了自然万物的统一性和多样性，万物由同一种东西组成，但原子之间有形状、位置、秩序的不同。&lt;/li&gt;
-  &lt;li&gt;原子论具有机械论的色彩。机械论：运动和变化体现为单纯量的组合与分解。&lt;/li&gt;
-  &lt;li&gt;原子论转向多元论，相比巴门尼德的一元论。&lt;/li&gt;
-  &lt;li&gt;原子论哲学的创立标志着早期希腊自然科学的结束。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">第二讲：哲学的诞生</summary></entry></feed>
+  &lt;li&gt;黑格尔的悲剧理论：悲剧是矛盾的双方都没有错，都有各自的道理，只不过由于两者的道理是相互冲突的，从而造成了无法挽回的后果。&lt;/li&gt;
+  &lt;li&gt;苏格拉底之死也是这样一出悲剧：城邦（城邦民主制）VS苏格拉底（自己的原则）&lt;/li&gt;
+  &lt;li&gt;两个罪名：教唆年轻人反对长辈——“教唆罪”；不尊重和信仰城邦的守护神，信自己（真理）的守护神&lt;/li&gt;
+  &lt;li&gt;苏格拉底认为尊重长辈但不能盲从，需要判断是非对错，首先应该遵从真理&lt;/li&gt;
+  &lt;li&gt;苏格拉底主张专家治国论——与城邦民主制相互矛盾&lt;/li&gt;
+  &lt;li&gt;苏格拉底不愿交付罚金，被判死刑，也不愿逃走——“找死”，或许能唤醒雅典人&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;德性即知识&quot;&gt;德性即知识&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;苏格拉底的聪明在于知道自己的无知，以与人对话为职业，目的在于揭露人们的无知，促使人们求知。&lt;/li&gt;
+  &lt;li&gt;苏格拉底认为只有知识能救雅典。&lt;/li&gt;
+  &lt;li&gt;怎样获得知识？“认识你自己”——希腊德尔菲神庙门楣上的铭言&lt;/li&gt;
+  &lt;li&gt;自然万物真正的主宰和原因并不是物质性的本原，而是它的内在目的，即“善”。&lt;/li&gt;
+  &lt;li&gt;“善”不是伦理学概念，而是泛指事物自身的本性，也就是它们追求实现的目标。人是“德性”。&lt;/li&gt;
+  &lt;li&gt;“德性”由神平均分配给每个人，但只是潜在地拥有，需要在理性指导下认识自己，所以苏格拉底认为，未经审慎的生活是没有价值的，一个人只有真正认识了他自己，才能实现自己的本性，完成自己的使命，成为一个有德性的人&lt;/li&gt;
+  &lt;li&gt;苏格拉底将德性和知识等同起来：“知识即德性，无知即罪恶”“无人有意作恶”——奠定了理性主义伦理学的基础，称之为伦理学的创始人&lt;/li&gt;
+  &lt;li&gt;他的问题是，并非有了知识就有了“德性”，人性不等于理性；但他自己确实是实践哲学家&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;是什么的问题&quot;&gt;“是什么”的问题&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;希腊哲学的基本问题是知识问题。苏格拉底要解决知识问题，不仅要说明获得知识是可能的，而且还要说明获得知识的具体途径&lt;/li&gt;
+  &lt;li&gt;他所理解的知识乃是对事物之一般、普遍的类本质的认识，使一事物成为该事物的本质规定&lt;/li&gt;
+  &lt;li&gt;亚里士多德把两项贡献归功于苏格拉底，“归纳论证”和“普遍定义”&lt;/li&gt;
+  &lt;li&gt;苏格拉底对概念定义的探索推进了柏拉图理念论的产生，但他并没有把普遍从特殊事物中分离出来（后人成为概念论，区别于柏拉图的理念论）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;助产术&quot;&gt;助产术&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;苏格拉底的“助产术”被他成为“辩证法”，辩证法的本意就是“对话”。黑格尔将苏格拉底、赫拉克利特和芝诺看做是辩证法的创始人&lt;/li&gt;
+  &lt;li&gt;助产术采用问答法，四个环节是反讥、归纳、诱导和定义&lt;/li&gt;
+  &lt;li&gt;反讥——打消傲气&lt;/li&gt;
+  &lt;li&gt;归纳——片面否定&lt;/li&gt;
+  &lt;li&gt;诱导——启发比喻（不强加观点，让对方自己去领会和体悟）&lt;/li&gt;
+  &lt;li&gt;定义——认识概念&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="哲学" /><category term="读书笔记" /><summary type="html">第三讲 苏格拉底的问题</summary></entry></feed>

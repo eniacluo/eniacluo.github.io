@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+{% for post in paginator.posts %} 
+{{ post.title }}
+{{ post.content | strip_html | truncatewords:40 }}
+{% endfor %}

@@ -2,7 +2,8 @@
 layout: post
 title:  "西方哲学读书笔记9-主体性的觉醒"
 date:   2019-09-20 20:29:30 -0500
-categories: others
+categories: philosophy
+tag: [哲学, 读书笔记]
 ---
 
 ## 第九讲 主体性的觉醒

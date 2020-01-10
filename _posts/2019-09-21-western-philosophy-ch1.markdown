@@ -2,7 +2,8 @@
 layout: post
 title:  "西方哲学读书笔记1-智慧的痛苦"
 date:   2019-09-20 20:27:00 -0500
-categories: others
+categories: philosophy
+tag: [哲学, 读书笔记]
 ---
 
 ## 第一讲：智慧的痛苦

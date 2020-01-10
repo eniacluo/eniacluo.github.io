@@ -2,8 +2,8 @@
 layout: post
 title:  "数据结构-讲义与复习提纲1"
 date:   2019-11-04 19:29:00 -0500
-categories: others
-published: true
+categories: cs
+tag: [教程]
 ---
 
 ## 数据结构

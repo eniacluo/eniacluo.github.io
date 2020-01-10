@@ -2,7 +2,8 @@
 layout: post
 title:  "西方哲学读书笔记6-晚期希腊哲学"
 date:   2019-09-20 20:29:00 -0500
-categories: others
+categories: philosophy
+tag: [哲学, 读书笔记]
 ---
 
 ## 第六讲 晚期希腊哲学

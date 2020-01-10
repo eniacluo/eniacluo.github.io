@@ -2,7 +2,8 @@
 layout: post
 title:  "西方哲学读书笔记3-苏格拉底的问题"
 date:   2019-09-20 20:28:00 -0500
-categories: others
+categories: philosophy
+tag: [哲学, 读书笔记]
 ---
 
 ## 第三讲 苏格拉底的问题

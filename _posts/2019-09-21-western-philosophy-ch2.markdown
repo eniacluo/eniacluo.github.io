@@ -2,7 +2,8 @@
 layout: post
 title:  "西方哲学读书笔记2-哲学的诞生"
 date:   2019-09-20 20:27:30 -0500
-categories: others
+categories: philosophy
+tag: [哲学, 读书笔记]
 ---
 
 ## 第二讲：哲学的诞生

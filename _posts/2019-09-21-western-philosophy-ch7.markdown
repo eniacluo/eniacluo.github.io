@@ -2,7 +2,8 @@
 layout: post
 title:  "西方哲学读书笔记7-信仰的时代"
 date:   2019-09-20 20:29:10 -0500
-categories: others
+categories: philosophy
+tag: [哲学, 读书笔记]
 ---
 
 ## 第七讲 信仰的时代

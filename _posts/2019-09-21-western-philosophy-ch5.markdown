@@ -2,7 +2,8 @@
 layout: post
 title:  "西方哲学读书笔记5-亚里士多德的形而上学"
 date:   2019-09-20 20:28:55 -0500
-categories: others
+categories: philosophy
+tag: [哲学, 读书笔记]
 ---
 
 ## 第五讲 亚里士多德的形而上学

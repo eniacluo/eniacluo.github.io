@@ -2,7 +2,8 @@
 layout: post
 title:  "西方哲学读书笔记4-柏拉图的“洞穴”"
 date:   2019-09-20 20:28:00 -0500
-categories: others
+categories: philosophy
+tag: [哲学, 读书笔记]
 ---
 
 ## 第四讲 柏拉图的“洞穴”

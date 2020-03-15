@@ -1,3 +1,5 @@
 .DS_Store
 _posts/.DS_Store
 .sass-cache/
+create_new.sh
+_site/create_new.sh

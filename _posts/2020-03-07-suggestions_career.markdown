@@ -42,4 +42,4 @@ tag: [收集]
 
 <br/>
 
-**From [李自然YouTube](https://www.youtube.com/watch?v=_JFQEPYmQ9I)**
+**From [如何获得更好前途？CEO的职场建议【李自然说】](https://www.youtube.com/watch?v=_JFQEPYmQ9I)**

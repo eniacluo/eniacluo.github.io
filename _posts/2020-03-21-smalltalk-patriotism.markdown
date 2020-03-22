@@ -10,7 +10,11 @@ tag: [收集]
 
 ## 爱是一种自发的情感
 
-<iframe src="https://drive.google.com/file/d/17zKFNInn95DnCPMCgR8OgtgBL5eD1LMd/preview" width="640" height="360"></iframe>
+<div class="ytcontainer">
+<iframe src="https://drive.google.com/file/d/17zKFNInn95DnCPMCgR8OgtgBL5eD1LMd/preview" class="yt" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<br />
 
 其实爱国这个事本来是不需要谈的，因为**爱这个事本来是一种自发的感情**，你爱家庭，爱父母，爱亲人，然后爱自己的国家。**这个不是一个人家强迫的事，也不是道德问题，实际上也不是政治问题**，所以我觉得本来是不需要讲的。
 
@@ -188,7 +192,10 @@ tag: [收集]
 
 ## “儿不嫌娘丑”的逻辑
 
-<iframe src="https://drive.google.com/file/d/1CDdSRHVQzxh3qw96jB4_wrV-ZTKVct7j/preview" width="640" height="360"></iframe>
+<div class="ytcontainer">
+<iframe src="https://drive.google.com/file/d/1CDdSRHVQzxh3qw96jB4_wrV-ZTKVct7j/preview" class="yt" width="100%" height="200" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<br />
 
 另外我们有一句话叫作儿不嫌娘丑，就是说你非爱这个国不可，不管她多丑你都得爱她，因为她是你娘。这个我想想是有很大的问题。
 
@@ -248,7 +255,10 @@ tag: [收集]
 
 ## 当代的爱国主义危机
 
-<iframe src="https://drive.google.com/file/d/10k5pkCZksbVZaYPnFRVfMcox1M-SRf6M/preview" width="640" height="360"></iframe>
+<div class="ytcontainer">
+<iframe src="https://drive.google.com/file/d/10k5pkCZksbVZaYPnFRVfMcox1M-SRf6M/preview" class="yt" width="100%" height="200" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<br />
 
 但是现在还有一个很大的问题倒是真的问题，就是现在不管你口号喊得多响，但是很多人都可以用脚投票。
 

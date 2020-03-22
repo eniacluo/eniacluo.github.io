@@ -6,7 +6,9 @@ categories: collection
 tag: [收集]
 ---
 
-<iframe src="https://drive.google.com/file/d/1iwc0snFBNEIp4CL8fKJhqhfO70H9az7g/preview" width="800" height="450"></iframe>
+<div class="ytcontainer">
+<iframe src="https://drive.google.com/file/d/1iwc0snFBNEIp4CL8fKJhqhfO70H9az7g/preview" class="yt" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
 <br />
 

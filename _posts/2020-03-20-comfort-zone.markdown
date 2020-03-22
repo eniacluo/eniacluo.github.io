@@ -6,10 +6,6 @@ categories: collection
 tag: [收集]
 ---
 
-<div class="ytcontainer">
-<iframe src="https://drive.google.com/file/d/13nfkUJMnmD3lbcksZLaBbNqPnP-hhrom/preview" class="yt" frameborder="0" allowfullscreen=""></iframe>
-</div>
+{% include googleDrivePlayer.html id="13nfkUJMnmD3lbcksZLaBbNqPnP-hhrom/preview" %}
 
-<br />
-
-**From [圆桌派S2 第8集 适应：要不要跨出“舒适区”](https://www.youtube.com/watch?v=gg9_ETxIcK4)**
+**原视频参见 [圆桌派S2 第8集 适应：要不要跨出“舒适区”](https://www.youtube.com/watch?v=gg9_ETxIcK4)**

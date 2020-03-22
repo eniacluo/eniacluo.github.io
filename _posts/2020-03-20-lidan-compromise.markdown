@@ -6,10 +6,6 @@ categories: collection
 tag: [收集]
 ---
 
-<div class="ytcontainer">
-<iframe src="https://drive.google.com/file/d/1iwc0snFBNEIp4CL8fKJhqhfO70H9az7g/preview" class="yt" frameborder="0" allowfullscreen=""></iframe>
-</div>
+{% include googleDrivePlayer.html id="1iwc0snFBNEIp4CL8fKJhqhfO70H9az7g/preview" %}
 
-<br />
-
-**From [十三邀第九期：许知远对话李诞](https://v.qq.com/x/cover/a4nj0k8wei9sjqd/o0025si51rx.html)**
+**原视频参见  [十三邀第九期：许知远对话李诞](https://v.qq.com/x/cover/a4nj0k8wei9sjqd/o0025si51rx.html)**

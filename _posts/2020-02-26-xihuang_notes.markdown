@@ -30,4 +30,4 @@ tag: [收集]
 
 <br/>
 
-**From [《开讲啦》生化博士、脱口秀主持黄西：不完美，怎么了？](https://www.youtube.com/watch?v=G3YrwKRgnN8)**
+**原视频参见 [《开讲啦》生化博士、脱口秀主持黄西：不完美，怎么了？](https://www.youtube.com/watch?v=G3YrwKRgnN8)**

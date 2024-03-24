@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2024-03-16 Economist"
+title: "2024-03-16"
 date: 2024-03-16 00:00:00 -0800
 categories: essay
 tag: [经济学人]

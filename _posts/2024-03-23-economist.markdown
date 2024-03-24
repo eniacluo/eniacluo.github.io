@@ -20,9 +20,6 @@ Some weeks, including this one, we publish more than one cover. In Britain we fo
 
 ![](https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20240323_DE_US.jpg)
 
-
-![](https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20240323_DE_US.jpg)
-
 **主编文章:** [以色列在军事实力的同时显得极为脆弱](https://www.economist.com/leaders/2024/03/21/at-a-moment-of-military-might-israel-looks-deeply-vulnerable)  **简报:** [加沙战争可能导致哈马斯垮台，但不能使以色列更安全](https://www.economist.com/briefing/2024/03/21/the-war-in-gaza-may-topple-hamas-without-making-israel-safer)  **中东和非洲:** [美国希望辟明内图离任。但他的离去充满危险](https://www.economist.com/middle-east-and-africa/2024/03/17/deposing-the-king-of-israel)
 
 **Leader:** [At a moment of military might, Israel looks deeply vulnerable](https://www.economist.com/leaders/2024/03/21/at-a-moment-of-military-might-israel-looks-deeply-vulnerable)  **Briefing:** [The war in Gaza may topple Hamas without making Israel safer](https://www.economist.com/briefing/2024/03/21/the-war-in-gaza-may-topple-hamas-without-making-israel-safer)  **Middle East & Africa:** [America wants Binyamin Netanyahu out. But his exit is fraught with dangers](https://www.economist.com/middle-east-and-africa/2024/03/17/deposing-the-king-of-israel)

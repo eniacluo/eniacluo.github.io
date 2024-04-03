@@ -1,3 +1,11 @@
+---
+layout: post
+title: "2024-03-30"
+date: 2024-03-30 00:00:00 -0800
+categories: essay
+tag: [经济学人]
+---
+
 # 经济学人 (The Economist)
 - [本周封面故事 (This week’s covers)](#本周封面故事-this-weeks-covers)
 - [政治 (Politics)](#政治-politics)
@@ -5,52 +13,52 @@
 - [商业 (Business)](#商业-business)
 - [欧洲经济面临的三重冲击 (The triple shock facing Europe’s economy)](#欧洲经济面临的三重冲击-the-triple-shock-facing-europes-economy)
 - [俄罗斯正在准备沿着一个漫长的前线发起一场新的大规模攻势 (Russia is gearing up for a big new push along a long front line)](#俄罗斯正在准备沿着一个漫长的前线发起一场新的大规模攻势-russia-is-gearing-up-for-a-big-new-push-along-a-long-front-line)
-- [对企业世界中那些自诩无所不知的人的一些建议 (Some advice to the corporate world’s know-it-alls)](#对企业世界中那些自诩无所不知的人的一些建议-some-advice-to-the-corporate-worlds-know-it-alls)
+- [对企业世界中那些自诩无所不知的人的一些建议 (Some advice to the corporate world’s know-it-alls)](#对企业世界中那些自诩无所不知的人的一些建议-some-advice-to-the-corporate-worlds-knowitalls)
 - [来自南极洲的逼近威胁 (The looming threat from Antarctica)](#来自南极洲的逼近威胁-the-looming-threat-from-antarctica)
-- [AI医生终将会见您 (The AI doctor will see you…eventually)](#ai医生终将会见您-the-ai-doctor-will-see-you…eventually)
+- [AI医生终将会见您 (The AI doctor will see you…eventually)](#ai医生终将会见您-the-ai-doctor-will-see-youeventually)
 - [一起恐怖谋杀引发了中国关于少年司法的讨论 (A gruesome murder sparks a debate about juvenile justice in China)](#一起恐怖谋杀引发了中国关于少年司法的讨论-a-gruesome-murder-sparks-a-debate-about-juvenile-justice-in-china)
-- [如何看待中国庞大的网络间谍活动 (What to make of China’s massive cyber-espionage campaign)](#如何看待中国庞大的网络间谍活动-what-to-make-of-chinas-massive-cyber-espionage-campaign)
-- [中国经济团队中谁在位，谁失势 (Who is up and who is down on China’s economic team)](#中国经济团队中谁在位，谁失势-who-is-up-and-who-is-down-on-chinas-economic-team)
-- [中国民族主义者对“三体问题”有意见 (Chinese nationalists have issues with “3 Body Problem”)](#中国民族主义者对“三体问题”有意见-chinese-nationalists-have-issues-with-“3-body-problem”)
+- [如何看待中国庞大的网络间谍活动 (What to make of China’s massive cyber-espionage campaign)](#如何看待中国庞大的网络间谍活动-what-to-make-of-chinas-massive-cyberespionage-campaign)
+- [中国经济团队中谁在位，谁失势 (Who is up and who is down on China’s economic team)](#中国经济团队中谁在位谁失势-who-is-up-and-who-is-down-on-chinas-economic-team)
+- [中国民族主义者对“三体问题”有意见 (Chinese nationalists have issues with “3 Body Problem”)](#中国民族主义者对三体问题有意见-chinese-nationalists-have-issues-with-3-body-problem)
 - [美国国会两院可能在十一月发生变化 (Both chambers of America’s Congress may flip in November)](#美国国会两院可能在十一月发生变化-both-chambers-of-americas-congress-may-flip-in-november)
-- [斯托米·丹尼尔斯案件呼应过去丑闻 (The case of Stormy Daniels echoes past scandals)](#斯托米·丹尼尔斯案件呼应过去丑闻-the-case-of-stormy-daniels-echoes-past-scandals)
-- [非法移民是否有权拥有枪支？ (Do undocumented immigrants have the right to own guns?)](#非法移民是否有权拥有枪支？-do-undocumented-immigrants-have-the-right-to-own-guns?)
+- [斯托米·丹尼尔斯案件呼应过去丑闻 (The case of Stormy Daniels echoes past scandals)](#斯托米丹尼尔斯案件呼应过去丑闻-the-case-of-stormy-daniels-echoes-past-scandals)
+- [非法移民是否有权拥有枪支？ (Do undocumented immigrants have the right to own guns?)](#非法移民是否有权拥有枪支-do-undocumented-immigrants-have-the-right-to-own-guns)
 - [乔治亚州的黑人共和党人为2024年制定了一项作战计划 (Georgia’s black Republicans have a battle plan for 2024)](#乔治亚州的黑人共和党人为2024年制定了一项作战计划-georgias-black-republicans-have-a-battle-plan-for-2024)
 - [巴尔的摩桥梁灾难的影响 (The impact of the Baltimore bridge disaster)](#巴尔的摩桥梁灾难的影响-the-impact-of-the-baltimore-bridge-disaster)
 - [芝加哥希望阻止 Glock 手枪被改装成机关枪 (Chicago wants to stop Glock pistols being turned into machineguns)](#芝加哥希望阻止-glock-手枪被改装成机关枪-chicago-wants-to-stop-glock-pistols-being-turned-into-machineguns)
 - [监管机构正在迫使大科技公司重新思考其人工智能战略 (Regulators are forcing big tech to rethink its AI strategy)](#监管机构正在迫使大科技公司重新思考其人工智能战略-regulators-are-forcing-big-tech-to-rethink-its-ai-strategy)
-- [戴夫·卡尔霍恩卸任波音首席执行官 (Dave Calhoun bows out as chief executive of Boeing)](#戴夫·卡尔霍恩卸任波音首席执行官-dave-calhoun-bows-out-as-chief-executive-of-boeing)
+- [戴夫·卡尔霍恩卸任波音首席执行官 (Dave Calhoun bows out as chief executive of Boeing)](#戴夫卡尔霍恩卸任波音首席执行官-dave-calhoun-bows-out-as-chief-executive-of-boeing)
 - [对耐克而言的市场胜利意味着阿迪达斯的商业成功 (A marketing victory for Nike is a business win for Adidas)](#对耐克而言的市场胜利意味着阿迪达斯的商业成功-a-marketing-victory-for-nike-is-a-business-win-for-adidas)
-- [麦肯锡及其咨询对手是否已经变得太过庞大？ (Have McKinsey and its consulting rivals got too big?)](#麦肯锡及其咨询对手是否已经变得太过庞大？-have-mckinsey-and-its-consulting-rivals-got-too-big?)
+- [麦肯锡及其咨询对手是否已经变得太过庞大？ (Have McKinsey and its consulting rivals got too big?)](#麦肯锡及其咨询对手是否已经变得太过庞大-have-mckinsey-and-its-consulting-rivals-got-too-big)
 - [遇见挑战谷歌巨人的数字化大卫 (Meet the digital David taking on the Google Goliath)](#遇见挑战谷歌巨人的数字化大卫-meet-the-digital-david-taking-on-the-google-goliath)
 - [让会计再次性感起来 (Making accounting sexy again)](#让会计再次性感起来-making-accounting-sexy-again)
 - [公司制服的利与弊 (The pros and cons of corporate uniforms)](#公司制服的利与弊-the-pros-and-cons-of-corporate-uniforms)
-- [纳伦德拉•莫迪的秘密武器：印度侨民 (Narendra Modi’s secret weapon: India’s diaspora)](#纳伦德拉•莫迪的秘密武器：印度侨民-narendra-modis-secret-weapon:-indias-diaspora)
-- [中国的银行存在不良贷款问题 (China’s banks have a bad-debt problem)](#中国的银行存在不良贷款问题-chinas-banks-have-a-bad-debt-problem)
-- [哪个国家将是最后一个摆脱通胀的？ (Which country will be last to escape inflation?)](#哪个国家将是最后一个摆脱通胀的？-which-country-will-be-last-to-escape-inflation?)
+- [纳伦德拉•莫迪的秘密武器：印度侨民 (Narendra Modi’s secret weapon: India’s diaspora)](#纳伦德拉莫迪的秘密武器印度侨民-narendra-modis-secret-weapon-indias-diaspora)
+- [中国的银行存在不良贷款问题 (China’s banks have a bad-debt problem)](#中国的银行存在不良贷款问题-chinas-banks-have-a-baddebt-problem)
+- [哪个国家将是最后一个摆脱通胀的？ (Which country will be last to escape inflation?)](#哪个国家将是最后一个摆脱通胀的-which-country-will-be-last-to-escape-inflation)
 - [印度如何成为亚洲虎 (How India could become an Asian tiger)](#印度如何成为亚洲虎-how-india-could-become-an-asian-tiger)
-- [随着市场飙升，投资者是否应该超越美国？ (As markets soar, should investors look beyond America?)](#随着市场飙升，投资者是否应该超越美国？-as-markets-soar,-should-investors-look-beyond-america?)
+- [随着市场飙升，投资者是否应该超越美国？ (As markets soar, should investors look beyond America?)](#随着市场飙升投资者是否应该超越美国-as-markets-soar-should-investors-look-beyond-america)
 - [欧洲经济饱受来自各方的打击 (Europe’s economy is under attack from all sides)](#欧洲经济饱受来自各方的打击-europes-economy-is-under-attack-from-all-sides)
-- [“华丽七人组”是如何误导的 (How the “Magnificent Seven” misleads)](#“华丽七人组”是如何误导的-how-the-“magnificent-seven”-misleads)
-- [虎鲸在捕猎时采用残忍而协调的攻击方式 (Killer whales deploy brutal, co-ordinated attacks when hunting)](#虎鲸在捕猎时采用残忍而协调的攻击方式-killer-whales-deploy-brutal,-co-ordinated-attacks-when-hunting)
-- [阿尔温德·凯杰里瓦尔的监禁是印度民主的污点 (Arvind Kejriwal’s imprisonment is a stain on India’s democracy)](#阿尔温德·凯杰里瓦尔的监禁是印度民主的污点-arvind-kejriwals-imprisonment-is-a-stain-on-indias-democracy)
-- [巴基斯坦接下来会怎样? (What next for Pakistan?)](#巴基斯坦接下来会怎样?-what-next-for-pakistan?)
+- [“华丽七人组”是如何误导的 (How the “Magnificent Seven” misleads)](#华丽七人组是如何误导的-how-the-magnificent-seven-misleads)
+- [虎鲸在捕猎时采用残忍而协调的攻击方式 (Killer whales deploy brutal, co-ordinated attacks when hunting)](#虎鲸在捕猎时采用残忍而协调的攻击方式-killer-whales-deploy-brutal-coordinated-attacks-when-hunting)
+- [阿尔温德·凯杰里瓦尔的监禁是印度民主的污点 (Arvind Kejriwal’s imprisonment is a stain on India’s democracy)](#阿尔温德凯杰里瓦尔的监禁是印度民主的污点-arvind-kejriwals-imprisonment-is-a-stain-on-indias-democracy)
+- [巴基斯坦接下来会怎样? (What next for Pakistan?)](#巴基斯坦接下来会怎样-what-next-for-pakistan)
 - [越南国家元首因种种问题离职 (Vietnam’s head of state leaves under a cloud)](#越南国家元首因种种问题离职-vietnams-head-of-state-leaves-under-a-cloud)
 - [伊斯兰国在阿富汗的分支正在与世界开战 (The Islamic State’s branch in Afghanistan is at war with the world)](#伊斯兰国在阿富汗的分支正在与世界开战-the-islamic-states-branch-in-afghanistan-is-at-war-with-the-world)
 - [博物馆的门票越来越贵 (Museums are becoming more expensive)](#博物馆的门票越来越贵-museums-are-becoming-more-expensive)
-- [碧昂丝的乡村风格背后隐藏着什么? (What lies behind Beyoncé’s country turn?)](#碧昂丝的乡村风格背后隐藏着什么?-what-lies-behind-beyoncés-country-turn?)
-- [你的婚姻能经得起一次海难吗？ (Could your marriage survive a shipwreck?)](#你的婚姻能经得起一次海难吗？-could-your-marriage-survive-a-shipwreck?)
-- [“格鲁法洛”的全球化之路 (How “The Gruffalo” went global)](#“格鲁法洛”的全球化之路-how-“the-gruffalo”-went-global)
+- [碧昂丝的乡村风格背后隐藏着什么? (What lies behind Beyoncé’s country turn?)](#碧昂丝的乡村风格背后隐藏着什么-what-lies-behind-beyoncs-country-turn)
+- [你的婚姻能经得起一次海难吗？ (Could your marriage survive a shipwreck?)](#你的婚姻能经得起一次海难吗-could-your-marriage-survive-a-shipwreck)
+- [“格鲁法洛”的全球化之路 (How “The Gruffalo” went global)](#格鲁法洛的全球化之路-how-the-gruffalo-went-global)
 - [废除富人的错误论据 (The fallacious case for abolishing the rich)](#废除富人的错误论据-the-fallacious-case-for-abolishing-the-rich)
 - [莫萨卡是如何成为希腊美食殿堂的一员 (How moussaka made it into the pantheon of Greek gastronomy)](#莫萨卡是如何成为希腊美食殿堂的一员-how-moussaka-made-it-into-the-pantheon-of-greek-gastronomy)
 - [人工智能正在接管药物研发 (Artificial intelligence is taking over drug development)](#人工智能正在接管药物研发-artificial-intelligence-is-taking-over-drug-development)
 - [人工智能将使医疗更安全更好 (AIs will make health care safer and better)](#人工智能将使医疗更安全更好-ais-will-make-health-care-safer-and-better)
-- [人工智能能够使医疗保健变得更高效吗? (Can artificial intelligence make health care more efficient?)](#人工智能能够使医疗保健变得更高效吗?-can-artificial-intelligence-make-health-care-more-efficient?)
+- [人工智能能够使医疗保健变得更高效吗? (Can artificial intelligence make health care more efficient?)](#人工智能能够使医疗保健变得更高效吗-can-artificial-intelligence-make-health-care-more-efficient)
 - [人工智能长期改进诊断 (Artificial intelligence has long been improving diagnoses)](#人工智能长期改进诊断-artificial-intelligence-has-long-been-improving-diagnoses)
 - [带有人脸的医疗人工智能即将问世 (Medical AIs with human faces are on their way)](#带有人脸的医疗人工智能即将问世-medical-ais-with-human-faces-are-on-their-way)
-- [如何预测唐纳德·特朗普的外交政策 (How to predict Donald Trump’s foreign policy)](#如何预测唐纳德·特朗普的外交政策-how-to-predict-donald-trumps-foreign-policy)
+- [如何预测唐纳德·特朗普的外交政策 (How to predict Donald Trump’s foreign policy)](#如何预测唐纳德特朗普的外交政策-how-to-predict-donald-trumps-foreign-policy)
 
-<span style="color: red;"><b>本周世界 | 经济学人</b></span> (The world this week | The Economist)
+<span style="color: red;"><b>本周世界 \| 经济学人</b></span> (The world this week \| The Economist)
 
 ## 本周封面故事 (This week’s covers)
 
@@ -2337,89 +2345,111 @@ A dish ripe for reinvention is also more likely to endure. Tselementes’s mouss
 
 ## 人工智能正在接管药物研发 (Artificial intelligence is taking over drug development)
 
-### 监管者需要加快步伐以跟上 (Regulators need to up their game to keep up)
+### 监管机构需要提升自己的水平以跟上 (Regulators need to up their game to keep up)
 
-证明**人工智能**可以提供深刻科学突破的最引人注目的证据，随着谷歌DeepMind推出名为AlphaFold的程序而显现出来。在2016年，该公司的研究人员凭借AlphaGo取得了巨大成功。AlphaGo是一个人工智能系统，基本上自学了围棋的规则，随后击败了该游戏中最高评分的人类选手，有时候通过使用不为人先思考的战术。这激励了该公司建立一个系统，通过这个系统可以计算出一套更加复杂的规则：特定蛋白质的氨基酸序列导致蛋白质制备时折叠成的形状。AlphaFold找到了这些规则，并且以惊人的成功应用了这些规则。
+**人工智能**提供深刻科学突破的最引人注目的证据出现在谷歌DeepMind发布的一个名为AlphaFold的程序面世时。2016年，该公司的研究人员通过AlphaGo取得了巨大成功，这是一款AI系统，它基本上是通过自学掌握了围棋的规则，然后击败了最高评分的人类棋手，有时还会使用从未预见过的策略。这使公司有了建立一个工作原理更为复杂的系统的信心：即氨基酸序列决定了蛋白质的形状，并在制造蛋白质时折叠成该形状的规则。AlphaFold找到了这些规则并以惊人的成功应用了它们。
 
 The most striking evidence that artificial intelligence can provide profound scientific breakthroughs came with the unveiling of a program called AlphaFold by Google DeepMind. In 2016 researchers at the company had scored a big success with AlphaGo, an AI system which, having essentially taught itself the rules of Go, went on to beat the most highly rated human players of the game, sometimes by using tactics no one had ever foreseen. This emboldened the company to build a system that would work out a far more complex set of rules: those through which the sequence of amino acids which defines a particular protein leads to the shape that sequence folds into when that protein is actually made. AlphaFold found those rules and applied them with astonishing success.
 
-这一成就既非凡又有用。非凡之处在于很多聪明的人类数十年来一直在努力创建将氨基酸链折叠成蛋白质的过程的计算机模型。AlphaFold几乎完全胜过他们的最佳努力，就像启发它的系统击败人类围棋选手一样。有用之处在于蛋白质的形状具有巨大的实用重要性：它决定蛋白质的功能以及其他分子对其的作用。生命的所有基本过程取决于特定蛋白质的功能。找到对蛋白质具有理想作用的分子（有时是阻止其作用，有时是促进其作用）是全球绝大多数药物开发计划的目标。
+这一成就既显著又实用。显著，因为多年来许多聪明的人一直在努力创造氨基酸链折叠成蛋白质的过程的计算机模型。与激发它的系统横扫人类围棋选手一样，AlphaFold几乎完全超越了他们的最佳努力。实用，因为蛋白质的形状具有极大的实用意义：它决定了蛋白质的功能及其他分子对其的作用。生命的所有基本过程都取决于特定蛋白质的功能。找到对蛋白质有益的分子（有时是阻止其作用，有时是促进其作用）是世界绝大多数药物开发项目的目标。
 
 The achievement was both remarkable and useful. Remarkable because a lot of clever humans had been trying hard to create computer models of the processes which fold chains of amino acids into proteins for decades. AlphaFold bested their best efforts almost as thoroughly as the system that inspired it trounces human Go players. Useful because the shape of a protein is of immense practical importance: it determines what the protein does and what other molecules can do to it. All the basic processes of life depend on what specific proteins do. Finding molecules that do desirable things to proteins (sometimes blocking their action, sometimes encouraging it) is the aim of the vast majority of the world’s drug development programmes.
 
-由于蛋白质的三维结构的重要性，有一个专门的子学科致力于研究它：结构生物学。它利用各种技术通过核磁共振技术观察蛋白质，或让它们结晶（这可能非常困难）并用X射线轰击它们。在AlphaFold之前，超过半个世纪的结构生物学通过这些方法生产了数十万个可靠的蛋白质结构。现在，AlphaFold及其竞争对手（尤其是Meta制作的程序）已经提供了超过6亿个形状的详细预测。
+由于蛋白质的三维结构的重要性，存在一个基本专门为此而设的子学科：结构生物学。它利用各种技术通过核磁共振技术观察蛋白质或者让它们结晶（这可能会非常困难），然后进行X射线照射。在AlphaFold之前，逾半个世纪的结构生物学通过这些方法产生了几十万个可靠的蛋白质结构。AlphaFold及其竞争对手（尤其是Meta制作的一个程序）现在提供了超过6亿种形状的详细预测。
 
 Because of the importance of proteins’ three-dimensional structure there is an entire sub-discipline largely devoted to it: structural biology. It makes use of all sorts of technology to look at proteins through nuclear-magnetic-resonance techniques or by getting them to crystallise (which can be very hard) and blasting them with x-rays. Before AlphaFold over half a century of structural biology had produced a couple of hundred thousand reliable protein structures through these means. AlphaFold and its rivals (most notably a program made by Meta) have now provided detailed predictions of the shapes of more than 600m.
 
-作为令科学家们大为惊叹的方法，这是一种难以超越的表现。但是，如果AlphaFold的产品让世界大吃一惊，那么它如何制作这些产品的基本原理却相当典型，属于深度学习和生成型人工智能在生物学领域可以提供的东西。AlphaFold接受了两种不同类型的数据训练（氨基酸序列和它们折叠成的三维描述），从中找到了允许它利用第一种数据来预测第二种数据的模式。这些预测并非完美。总部位于犹他州的人工智能密集型药物发现初创公司Recursion Pharmaceuticals的负责人Chris Gibson表示，他的公司将AlphaFold的输出视为待测试和验证的假设。并非所有假设都成立。但Gibson博士也表示，该模型正在迅速变得更加优秀。
+作为留下科学家们目瞪口呆的方式，它难以超越。但是，如果AlphaFold的成果让世界为之震撼，那么它们的制作基础属于深度学习和生成式**人工智能**可以为生物学提供的一类典型事物。AlphaFold在两种不同类型的数据（氨基酸序列和它们折叠形成的三维描述）上训练，找到了可以让它使用第一类型数据来预测第二类型数据的模式。这些预测并非都完美。位于犹他州的AI密集型药物发现初创企业Recursion Pharmaceuticals的老板克里斯·吉布森表示，他公司将AlphaFold的产出视为待在试验中验证的假设。并非所有假设都符合事实。但吉布森博士也表示，该模型迅速变得更好。
 
 As a way of leaving scientists gobsmacked it is a hard act to follow. But if AlphaFold’s products have wowed the world, the basics of how it made them are fairly typical of the sort of things deep learning and generative AI can offer biology. Trained on two different types of data (amino-acid sequences and three-dimensional descriptions of the shapes they fold into) AlphaFold found patterns that allowed it to use the first sort of data to predict the second. The predictions are not all perfect. Chris Gibson, the boss of Recursion Pharmaceuticals, an AI-intensive drug-discovery startup based in Utah, says that his company treats AlphaFold’s outputs as hypotheses to be tested and validated experimentally. Not all of them pan out. But Dr Gibson also says the model is quickly getting better.
 
-这正是如今在生物医学世界及具体的药物研究领域中许多人工智能正在做的事情：提出科学家自己可能不会想到或无法独立提出的世界思维方式。针对大量不同数据发现跨数据之间的规律的AI系统可以发现这些数据中对人类生物学和疾病具有影响的关系。当面临新数据时，它们可以利用这些关系模式产生新的假设，然后对其进行测试。
+这是当下各类人工智能在生物医学领域及具体药物研究中正在做的事情：提出科学家可能自行想象不到的世界运作方式的建议。AI系统在大量不同数据集中寻找可以延伸的模式，从而发现这些数据中对人类生物学和疾病有意义的联系。面对新数据，它们可以利用这些影响模式产生新的假设，然后对其进行测试。
 
 This is what a whole range of AIs are now doing in the world of biomedicine and, specifically, drug research: making suggestions about the way the world is that scientists could or would not come up with on their own. Trained to find patterns that extend across large bodies of disparate data, AI systems can discover relationships within those data that have implications for human biology and disease. Presented with new data they can use those patterns of implication to produce new hypotheses which can then be tested.
 
-人工智能生成新理念的能力为用户提供见解，帮助他们识别药物靶点，并预测可能作为药物的新化合物的行为，有时这些化合物之前从未被想象过。还被用于发现旧药物的新应用，预测新药的副作用，并找到方法来区分哪些患者可能受益于某种药物，哪些患者可能受到伤害。
+**人工智能**生成新想法的能力为用户提供了洞察力，可以帮助发现药物靶点，并预测可能作为药物的新化合物行为，有时甚至是以前从未想象过的。此外，它还被用来找到旧药物的新应用，预测新药物的副作用，并找到方法来区分哪些患者可能受益于药物，哪些可能受到伤害。
 
 The ability of AI to generate new ideas provides users with insights that can help to identify drug targets and to predict the behaviour of novel compounds, sometimes never previously imagined, that might act as drugs. It is also being used to find new applications for old drugs, to predict the side effects of new drugs, and to find ways of telling those patients whom a drug might help from those it might harm.
 
-有时候找出**AI**对数据的响应是有用的本身。 2019年，总部位于巴黎的“**AI生物技术**”公司Owkin公布了一篇详细说明，关于一个经过训练的深度神经网络，用于根据玻璃载玻片上的组织样本预测患有恶性间皮瘤的患者的存活率，这是一种围绕肺部组织的癌症。 它发现，**AI**预测中最相关的细胞不是癌细胞本身，而是附近的非癌细胞。 Owkin团队引入了额外的细胞外和分子数据，发现了一个新的药物靶点。 去年8月，印第安纳大学布卢明顿分校的科学家团队训练了一个模型，该模型基于癌细胞对药物的响应数据（包括基因信息）和药物的化学结构，使其能够预测药物在治疗特定癌症方面的有效性。
+这些计算雄心并非新鲜事物。斯坦福大学的研究人员Vijay Pande表示，大规模计算、机器学习和药物设计已经在2000年代融合在一起。这在一定程度上是对于生物学火速涌现的新发现的回应：现在每年发表的生物医学研究论文超过一百万篇。
 
 Such computational ambitions are not new. Large-scale computing, machine learning and drug design were already coming together in the 2000s, says Vijay Pande, who was a researcher at Stanford University at the time. This was in part a response to biology’s fire hose of new findings: there are now more than a million biomedical research papers published every year.
 
-许多使用**AI**的公司需要大量高质量的数据，他们正在作为药物开发项目的一部分生成这些数据，而不是等待其他地方发布。 在Genentech的一个新的计算科学部门，采用了“循环实验室”方法来训练他们的**AI**，是该主题的一种变体。 这套系统的预测结果通过利用自动实验室系统运行的实验来进行大规模测试。 然后使用这些实验的结果来重新训练**AI**，并提高其准确性。 Recursion采用类似策略，它表示可以使用自动化实验室机器人每周进行2.2百万次实验。
+**人工智能**最初被视为有助于解决这个问题的方法之一是通过“知识图谱”，它允许机器阅读所有这些信息，并为关于例如血液中哪种蛋白质可用作生物标志物，揭示疾病存在或严重程度的见解。2020年，总部位于伦敦的BenevolentAI利用了这种方法，看到了Eli Lilly销售的用于治疗类风湿关节炎的baricitinib在治疗新冠肺炎方面的潜力。
 
 One of the early ways in which AI was seen to help with this was through “knowledge graphs”, which allowed all that information to be read by machines and mined for insights about, say, which proteins in the blood might be used as biomarkers revealing the presence or severity of a disease. In 2020 BenevolentAI, based in London, used this method to see the potential which baricitinib, sold by Eli Lilly as a treatment for rheumatoid arthritis, had for treating covid-19.
 
-随着制药公司对数据的需求日益增长，关于患者数据隐私的担忧也越来越突出。 Owkin和其他公司使用的一种解决问题的方式是“联邦学习”，该方式对抗癌细胞类型构建图谱的训练数据永不离开存储着需要的组织样本的医院：数据能提供的训练内容被提取。 而数据本身则留存。
+这月，《科学》杂志发表的研究描述了一种不同类型的**AI算法**如何加速了在血液中寻找长期**covid**生物标志物的努力。统计方法在发现这类生物标志物时可能面临挑战，因为数据的复杂性很高。**AI**提供了一种突破这些干扰并推进疾病发现过程的方法，无论是像长期**covid**这样的新疾病，还是像早期阶段的阿尔茨海默病这类难以诊断的疾病。
 
 This January, research published in *Science* described how AI algorithms of a different sort had accelerated efforts to find biomarkers of long covid in the blood. Statistical approaches to the discovery of such biomarkers can be challenging given the complexity of the data. AIs offer a way of cutting through this noise and advancing the discovery process in diseases both new, like long covid, and hard to diagnose, like the early stages of Alzheimer’s.
 
-**AI** 的影响超越了理解疾病，进入了干预的领域。 多伦多大学的ProteinSGM等生成式**AI**模型现在在蛋白质设计中是强大的工具，因为它们不仅能够呈现现有的蛋白质，还能设计出具有期望特性的全新蛋白质—**AI**模型还可以设计出与靶标以期望方式相互作用的小分子。
+尽管取得了过去的进展，但现在在大力推进**AI**的风险投资公司Andreessen Horowitz的Pande博士认为，最近的进展标志着一个转变。在新的基础模型崭露头角之前，生物医学研究，特别是在生物技术和制药领域，一直在稳步增加对自动化和工程化的依赖；现在这种情况已经发生，这两者似乎相辅相成。这些新的基础模型不仅提供了处理庞大数据的方法，而且对数据提出了需求。高度自动化的实验室可以产生大量可靠数据，这正是用于训练基础模型的理想材料。生物医学研究人员需要尽可能多的帮助来理解他们现在能够生成的大量数据。
 
 But despite this past progress, Dr Pande, now at Andreessen Horowitz, a venture-capital firm that is big on AI, thinks that more recent advances mark a step change. Biomedical research, particularly in biotech and pharma, was steadily increasing its reliance on automation and engineering before the new foundation models came into their own; now that has happened, the two seem to reinforce each other. The new foundation models do not just provide a way to cope with big bodies of data; they demand them. The scads of reliable data highly automated labs can produce in abundance are just the sort of thing for training foundation models. And biomedical researchers need all the help they can get to understand the torrents of data they are now capable of generating.
 
-在每个阶段，**AI** 的假设需要与现实进行核对。 即便如此，这种方法似乎加速了发现。 波士顿咨询集团（BCG）进行的一项针对“**AI密集型**”公司的药物的最新分析发现，从已知信息中，有八种药物中有五种在临床试验中的用时少于通常所需。 其他工作表明，在药物的临床前阶段，**AI**可能会节约25%至50%的时间和成本，而这个过程可能需要四到七年。 考虑到整个过程的时间和金钱成本，对于一种药物来说，这可能是数十亿美元，改进有可能转变该行业的生产率。 但是要确信还需要时间。 药物开发仍然缓慢； 所有这些承诺的新药物尚未上市。
+通过找到人类无法想到的模式，或者没有希望在没有帮助的情况下找到的模式，**AI**为研究人员提供了探索和理解生命奥秘的新途径。一些人谈到**AI**掌握了“生物的语言”，学会从数据中直接理解进化产生的东西，就像它们在大量真实语言上进行训练后，可以流利地生成以前从未说过的有意义的句子。
 
 By finding patterns humans had not thought to look for, or had no hope of finding unaided, AI offers researchers new ways to explore and understand the mysteries of life. Some talk of AIs mastering the “language of biology”, learning to make sense of what evolution has wrought directly from the data in the same way that, trained on lots of real language, they can fluently generate meaningful sentences never uttered before.
 
-Insilico Medicine是希望改变这种状况的公司之一。 它在药物开发过程中使用一系列模型。 其中一个可以识别可能成为影响疾病的蛋白质。 另一个可以设计潜在的新药物化合物。 使用这种方法，它在不到18个月的时间和300万美元的成本内，确定了一个可能对肺纤维化有用的药物候选。 这种药物最近已经开始进行第二阶段试验。
+DeepMind的负责人Demis Hassabis指出，生物本身可以被认为是“一个信息处理系统，尽管是一个非常复杂和动态的系统”。硅谷公司Seer Bio的首席数据官Serafim Batzoglou在Medium上的一篇文章中预测，将出现集成从基因组序列到病史的数据的开放基础模型。他认为，这将极大地加速创新并促进精准医疗。
 
 Demis Hassabis, the boss of DeepMind, points out that biology itself can be thought of as “an information processing system, albeit an extraordinarily complex and dynamic one”. In a post on Medium, Serafim Batzoglou, the chief data officer at Seer Bio, a Silicon Valley company that specialises in looking at how proteins behave, predicts the emergence of open foundation models that will integrate data spanning from genome sequences to medical histories. These, he argues, will vastly accelerate innovation and advance precision medicine.
 
-许多中国的制药公司正与Insilico等以**AI**为驱动的企业达成交易，希望看到更多类似的情况。 一些人希望这类交易能够促进中国相对增长缓慢的药物开发业务。 中国的合同研究机构已经感受到了**AI**激发的对来自世界各地新分子的兴趣带来的好处。 2021年在中国对**AI**辅助药物发现的投资超过了12.6亿美元。
+像许多热衷于**AI**的爱好者一样，Pande博士谈到了“一场改变一切的工业革命”。但是他对迄今所花费的时间的理解使他警告说，证明那种长期激情变化的成就不会一夜之间到来：“我们正处于一个过渡时期，在这个时期人们可以看到差异，但仍有工作要做。”
 
 Like many of the enthusiasts piling into AI Dr Pande talks of an “industrial revolution…changing everything”. But his understanding of the time taken so far leads him to caution that achievements that justify that long-term enthusiasm change will not come overnight: “We are in a transitory period where people can see the difference but there is still work to do.”
 
-在过去十年中，世界已经见证了许多开创性的新药物和治疗方法：以**GLP-1**为靶点的药物正在改变糖尿病和肥胖症的治疗方式；利用免疫系统对抗癌症的**CAR-T**疗法；基因编辑的第一个临床应用。 但是，从识别重要的生物过程到确定可开发的靶标再到发展候选分子，然后通过临床前测试和临床试验，药物开发的长途旅程依然是通常是缓慢和令人沮丧的工作。 在2000年至2015年间开发的所有候选药物中，大约86%未能在临床试验中达到其主要目标。 一些人认为药物开发已经摘去大多数生物学的低 hanging 嘴里的果子，留下了难以治愈的疾病和“无法开发药物”的靶标。
+许多制药公司近年来在基础模型的开发上做出了重大投资。与此同时，像位于硅谷的Recursion、Genesis Therapeutics、Insilico以及位于香港和纽约的公司等以**AI**为中心的初创公司也在崛起，同时位于马萨诸塞州剑桥的Relay Therapeutics也在其中。位于南旧金山的**AI**生物技术公司Insitro的负责人Daphne Koller表示，一个迹象是她不再需要解释大型语言模型和自监督学习。而生产驱动基础模型的显卡制造商Nvidia表现出浓厚的兴趣。在过去的一年里，它已经向至少六家不同的**AI**生物技术公司投资或达成合作协议，其中包括另一家位于纽约的Schrodinger、Genesis、Recursion和瑞士制药公司Roche的独立子公司Genentech。
 
 A lot of pharma firms have made significant investments in the development of foundation models in recent years. Alongside this has been a rise in AI-centred startups such as Recursion, Genesis Therapeutics, based in Silicon Valley, Insilico, based in Hong Kong and New York and Relay Therapeutics, in Cambridge, Massachusetts. Daphne Koller, the boss of Insitro, an AI-heavy biotech in South San Francisco, says one sign of the times is that she no longer needs to explain large language models and self-supervised learning. And Nvidia—which makes the graphics-processing units that are essential for powering foundation models—has shown a keen interest. In the past year, it has invested or made partnership deals with at least six different AI-focused biotech firms including Schrodinger, another New York based firm, Genesis, Recursion and Genentech, an independent subsidiary of Roche, a big Swiss pharmaceutical company.
 
-未来几年将最终证明**AI**是否能够实质性地改变这种局面。 即使它仅提供一些渐进性的改进，这仍可能是一个真正的福音。 如果它像最乐观者所说的那样，使生物学以一种全新的方式被解读，那么它可能会使整个过程更加成功和高效，并能够极其迅速地开发没有药物可治的病症。 波士顿咨询集团的分析师认为，**AI**-支持的新药物浪潮正迅速到来。 Pande博士警告说，药品监管机构将需要提高其水平以迎接挑战。 这将是世界很好的问题。 ■
+许多公司正在使用的药物发现模型可以从各种生物数据中学习，包括基因序列、细胞和组织的图片、相关蛋白质的结构、血液中的生物标志物、特定细胞中产生的蛋白质，以及关于患病进程和患者治疗效果的临床数据。一旦训练完毕，**AI**可以通过有标签的数据进行微调以增强其能力。
 
 The drug-discovery models many of the companies are working with can learn from a wide variety of biological data including gene sequences, pictures of cells and tissues, the structures of relevant proteins, biomarkers in the blood, the proteins being made in specific cells and clinical data on the course of disease and effect of treatments in patients. Once trained, the AIs can be fine tuned with labelled data to enhance their capabilities.
 
+对患者数据的使用尤其耐人寻味。由于种种明显原因，往往不可能通过实验来发现人类疾病的确切机理。因此，药物研发通常主要依赖动物模型，尽管它们可能误导人。经过训练、更加适应人类生物学的**AI**可能有助于避免一些妨碍药物研发的死胡同。
+
 The use of patient data is particularly interesting. For fairly obvious reasons it is often not possible to discover the exact workings of a disease in humans through experiment. So drug development typically relies a lot on animal models, even though they can be misleading. AIs that are trained on, and better attuned to, human biology may help avoid some of the blind alleys that stymie drug development.
+
+例如，Insitro通过病理学切片、基因序列、磁共振成像数据和血液蛋白质来训练其模型。其中一个模型能够将细胞在显微镜下的外观变化与基因组中的变异和不同疾病的临床结果联系起来。该公司希望利用这些技术找到识别对特定治疗方法特别有效的癌症患者亚群的方法。
 
 Insitro, for example, trains its models on pathology slides, gene sequences, MRI data and blood proteins. One of its models is able to connect changes in what cells look like under the microscope with underlying mutations in the genome and with clinical outcomes across various different diseases. The company hopes to use these and similar techniques to find ways to identify sub-groups of cancer patients that will do particularly well on specific courses of treatment.
 
+有时候，弄清楚**人工智能**正在如何响应数据的哪个方面本身就是有用的。2019年，总部位于巴黎的“**AI生物科技**”公司Owkin发布了有关一个深度神经网络的细节，该网络经过训练可以预测患有恶性间皮瘤（一种围绕肺部组织的癌症）的患者的存活情况，这是基于玻片上的组织样本。发现AI预测中最相关的细胞并非癌细胞本身，而是附近的非癌细胞。Owkin团队引入了额外的细胞外和分子数据，并发现了一种新的药物靶点。去年八月，印第安纳大学布卢明顿分校的科学家团队训练了一个模型，该模型基于有关癌细胞如何对药物作出反应（包括基因信息）以及药物的化学结构的数据，从而使其能够预测一种药对治疗特定癌症的有效性。
+
 Sometimes finding out what aspect of the data an AI is responding to is useful in and of itself. In 2019 Owkin, a Paris based “AI biotech”, published details of a deep neural network trained to predict survival in patients with malignant mesothelioma, a cancer of the tissue surrounding the lung, on the basis of tissue samples mounted on slides. It found that the cells most germane to the AI’s predictions were not the cancer cells themselves but non-cancerous cells nearby. The Owkin team brought extra cellular and molecular data into the picture and discovered a new drug target. In August last year a team of scientists from Indiana University Bloomington trained a model on data about how cancer cells respond to drugs (including genetic information) and the chemical structures of drugs, allowing it to predict how effective a drug would be in treating a specific cancer.
 
+许多使用**AI**的公司需要大量高质量的数据，他们正在自行生成这些数据作为其药物开发计划的一部分，而不是等待其他地方发布。一个关于这个主题的变体来自Genentech的新计算科学部门，该部门采用“实验室内环”方法来训练他们的**AI**。该系统的预测结果通过运行自动化实验室系统进行大规模测试。然后利用这些实验的结果重新训练**AI**，以提高其准确性。Recursion也使用类似的策略，声称可以利用自动化实验室机器人每周进行220万次实验。
+
 Many of the companies using AI need such great volumes of high quality data they are generating it themselves as part of their drug development programmes rather than waiting for it to be published elsewhere. One variation on this theme comes from a new computational sciences unit at Genentech which uses a “lab in the loop” approach to train their AI. The system’s predictions are tested at a large scale by means of experiments run with automated lab systems. The results of those experiments are then used to retrain the AI and enhance its accuracy. Recursion, which is using a similar strategy, says it can use automated laboratory robotics to conduct 2.2m experiments each week.
+
+随着制药公司对数据需求日益增加，有关患者数据隐私的担忧变得更加突出。Owkin等公司使用的一种解决这个问题的方式是“**联合学习**”，在这种方法中，用于构建癌症细胞类型图谱的训练数据永远不会离开存储所需组织样本的医院：数据可以提供的训练内容被带走了，而数据本身则保留。
 
 As pharma firms become increasingly hungry for data, concerns about the privacy of patient data are becoming more prominent. One way of dealing with the problem, used by Owkin among others, is “federated learning”, in which the training data it needs to build an atlas of cancer cell types never leaves the hospital where the tissue samples required are stored: what the data can offer in terms of training is taken away. The data themselves remain.
 
 ![](https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20240330_TQC025.png)
 
+**AI**的意义不仅在于理解疾病，还涉及到如何干预。多伦多大学的ProteinSGM等生成式**AI**模型现在是蛋白设计的强大工具，因为它们不仅能够描绘现有蛋白质，还能设计具有期望特性的新蛋白质——这些特性在自然界中目前并不存在，但是可以作为实现期望功能的可能途径。其他系统允许化学家设计小分子，这些小分子在与靶标的特定方式互动时可能用作药物。
+
 The implications of AI go beyond understanding disease and on into figuring out how to intervene. Generative AI models, such as ProteinSGM from the University of Toronto, are now powerful tools in protein design because they are not merely able to picture existing proteins but also to design new ones—with desired characteristics—that do not currently exist in nature but which are possible ways of embodying a desired function. Other systems allow chemists to design small molecules that might be useful as drugs as they interact with a target in a desired way.
+
+在每个阶段，**AI**假设都需要与现实进行核对。即便如此，这种方法似乎能加速发现。波士顿咨询集团（BCG）进行的一项针对“**AI密集型**”公司的药物最近分析发现，在可获得信息的八种药物中，有五种在不到典型时间内进入了临床试验阶段。其他工作表明，**AI**在药物开发的临床前阶段可能实现时间和成本节约25%至50%，这一阶段可能需要四到七年。鉴于整个过程的时间和金钱成本，对于单个药物而言，这可能需要花费数十亿美元，改进可能会转变该行业的生产力。但这需要时间才能确定。药物管道仍然进展缓慢；这些承诺的新药物尚未上市。
 
 At every stage the AI hypotheses need to be checked against reality. Even so, such an approach seems to speed up discovery. A recent analysis of drugs from “AI-intensive” firms carried out by BCG, a consulting group, found that of eight drugs for which information was available, five had reached clinical trials in less than the typical time for doing so. Other work suggests AI could yield time and cost savings of 25% to 50% in the preclinical stage of drug development, which can take four to seven years. Given the cost in time and money of the whole process, which can be several billions of dollars for a single drug, improvements could transform the industry’s productivity. But it will take time to know for sure. Drug pipelines are still slow; none of these promised new drugs has yet got to market.
 
+Insilico Medicine是希望事情发生变化的公司之一。它在药物开发过程中使用多种模型。其中一个确定可能被靶向以影响疾病的蛋白质。另一个可以设计潜在的新药物化合物。使用这种方法，它在不到18个月的时间内以300万美元的成本确定了一种可能对肺纤维化有用的药物候选，这仅是正常成本的一小部分。这种药物最近进入了第二阶段临床试验。
+
 Insilico Medicine is one of the companies hoping for that to change. It uses a range of models in its drug development process. One identifies the proteins that might be targeted to influence a disease. Another can design potential new drug compounds. Using this approach it identified a drug candidate which might be useful against pulmonary fibrosis in less than 18 months and at a cost of $3m—a fraction of the normal cost. The drug recently started Phase 2 trials.
+
+许多中国的制药公司正在与Insilico等以**AI**驱动公司达成交易，希望看到更多类似的情况发生。一些人希望这类交易能够刺激中国相对增长缓慢的药物开发企业。中国的合同研究机构已经感受到了来自全球各地对新分子的**AI**推动兴趣带来的好处。2021年中国在**AI**辅助药物发现上的投资超过了12.6亿美元。
 
 A lot of pharma firms in China are doing deals with AI-driven companies like Insilico in the hope of seeing more of the same. Some hope that such deals might be able to boost China’s relatively slow-growing drug-development businesses. China’s contract research organisations are already feeling the benefits of AI fuelled interest in new molecules from around the world. Investment in AI-assisted drug discovery in China was more than $1.26bn in 2021.
 
+过去十年，世界见证了许多**开创性** 的新药物和治疗方法：针对 GLP-1 的药物正在改变糖尿病和肥胖症的治疗方式；CAR-T疗法正在动员免疫系统对抗癌症；基因编辑的首次临床应用。但是，从识别重要的生物过程到确定可靶药物靶点，再到开发候选分子，进行临床前试验，然后进行临床试验，这长期的药物开发过程通常是缓慢且令人沮丧的工作。在 2000 年至 2015 年间开发的所有药物候选物中，大约有 86% 未能达到临床试验的主要终点。有人认为药物开发已经摘下了大部分生物学的低 hanging fruits，留下了难以应付的疾病和“无法靶向”的药物靶点。
+
 The world has seen a number of ground breaking new drugs and treatments in the past decade: the drugs targeting GLP-1 that are transforming the treatment of diabetes and obesity; the CAR-T therapies enlisting the immune system against cancer; the first clinical applications of genome editing. But the long haul of drug development, from discerning the biological processes that matter to identifying druggable targets to developing candidate molecules to putting them through preclinical tests and then clinical trials, remains generally slow and frustrating work. Approximately 86% of all drug candidates developed between 2000 and 2015 failed to meet their primary endpoints in clinical trials. Some argue that drug development has picked off most of biology’s low-hanging fruit, leaving diseases which are intractable and drug targets that are “undruggable”.
+
+未来几年将明确地展示人工智能是否能够实质性地改变这一局面。即使它只提供渐进性改进，这仍可能是一个真正的福音。如果像最积极乐观的人所预言的那样，它让生物学以全新的方式被解读，它可能使整个过程变得更加成功和高效 - 并且能够非常快速地将“无法靶向”的疾病进行药物化。波士顿咨询集团的分析师认为正在迅速接近一场由人工智能推动的新药浪潮。Pande 博士警告称，药品监管机构需要提升能力以迎接挑战。这对世界来说将会是一个好问题。 ■
 
 The next few years will demonstrate conclusively if AI is able to materially shift that picture. If it offers merely incremental improvements that could still be a real boon. If it allows biology to be deciphered in a whole new way, as the most boosterish suggest, it could make the whole process far more successful and efficient—and drug the undruggable very rapidly indeed. The analysts at BCG see signs of a fast-approaching AI-enabled wave of new drugs. Dr Pande warns that drug regulators will need to up their game to meet the challenge. It would be a good problem for the world to have. ■
 

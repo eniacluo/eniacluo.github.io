@@ -12,12 +12,14 @@ tag: [经济学人]
 - [商业 (Business)](#商业-business)
 - [KAL的漫画 (KAL’s cartoon)](#kal的漫画-kals-cartoon)
 - [本周封面 (This week’s cover)](#本周封面-this-weeks-cover)
+
 #### 领袖
 - [习近平错误的摆脱经济停滞计划 (Xi Jinping’s misguided plan to escape economic stagnation)](#习近平错误的摆脱经济停滞计划-xi-jinpings-misguided-plan-to-escape-economic-stagnation)
 - [各国央行已消耗其信誉 (Central banks have spent down their credibility)](#各国央行已消耗其信誉-central-banks-have-spent-down-their-credibility)
 - [提防一个没有美国实力的世界 (Beware a world without American power)](#提防一个没有美国实力的世界-beware-a-world-without-american-power)
 - [一次令人不寒而栗的近失事表明当今数字基础设施的脆弱性 (A chilling near-miss shows how today’s digital infrastructure is vulnerable)](#一次令人不寒而栗的近失事表明当今数字基础设施的脆弱性-a-chilling-near-miss-shows-how-todays-digital-infrastructure-is-vulnerable)
 - [波音、迪士尼等公司可以从通用电气中学到什么 (What Boeing, Disney and others can learn from General Electric)](#波音迪士尼等公司可以从通用电气中学到什么-what-boeing-disney-and-others-can-learn-from-general-electric)
+
 #### 美国
 - [拜登在密歇根的竞选活动拥有巨大的地面优势 (The Biden campaign in Michigan has a tremendous ground-game advantage)](#拜登在密歇根的竞选活动拥有巨大的地面优势-the-biden-campaign-in-michigan-has-a-tremendous-ground-game-advantage)
 - [一项堕胎裁决让民主党希望佛罗里达成为竞争目标 (An abortion ruling has Democrats hoping Florida is in play)](#一项堕胎裁决让民主党希望佛罗里达成为竞争目标-an-abortion-ruling-has-democrats-hoping-florida-is-in-play)
@@ -25,17 +27,21 @@ tag: [经济学人]
 - [乔·拜登对900美元抗儿童湿疹霜的攻击 (Joe Biden’s assault on the $900 child-eczema cream)](#乔拜登对900美元抗儿童湿疹霜的攻击-joe-bidens-assault-on-the-900-child-eczema-cream)
 - [加利福尼亚深陷经济问题，没有简单的解决方案 (California is gripped by economic problems, with no easy fix)](#加利福尼亚深陷经济问题没有简单的解决方案-california-is-gripped-by-economic-problems-with-no-easy-fix)
 - [美国进步派让自己变得悲伤吗? (Are American progressives making themselves sad?)](#美国进步派让自己变得悲伤吗-are-american-progressives-making-themselves-sad)
+
 #### 亚洲
 - [为何印度精英喜爱纳伦德拉·莫迪 (Why India’s elite loves Narendra Modi)](#为何印度精英喜爱纳伦德拉莫迪-why-indias-elite-loves-narendra-modi)
 - [日本在能登地震后100天仍然震惊不已 (Japan is still reeling 100 days after the Noto earthquake)](#日本在能登地震后100天仍然震惊不已-japan-is-still-reeling-100-days-after-the-noto-earthquake)
 - [板球印度垄断的终结 (The end of cricket’s Indian monopoly)](#板球印度垄断的终结-the-end-of-crickets-indian-monopoly)
 - [亚洲“政治二代”正在主导政治 (Asian “nepo babies” are dominating its politics)](#亚洲政治二代正在主导政治-asian-nepo-babies-are-dominating-its-politics)
 - [要一窥日本的未来，请看看它的便利店 (For a glimpse at Japan’s future, look at its convenience stores)](#要一窥日本的未来请看看它的便利店-for-a-glimpse-at-japans-future-look-at-its-convenience-stores)
+
 #### 中国
 - [中国政治家族如何决定其未来 (How China’s political clans might determine its future)](#中国政治家族如何决定其未来-how-chinas-political-clans-might-determine-its-future)
 - [中国对世界的生硬态度 (China’s tin-eared approach to the world)](#中国对世界的生硬态度-chinas-tin-eared-approach-to-the-world)
+
 #### 国际
 - [卢旺达30年后，种族灭绝仍是魔鬼问题 (Thirty years after Rwanda, genocide is still a problem from hell)](#卢旺达30年后种族灭绝仍是魔鬼问题-thirty-years-after-rwanda-genocide-is-still-a-problem-from-hell)
+
 #### 商业
 - [在中国做生意的全新颠覆性规则 (The mind-bending new rules for doing business in China)](#在中国做生意的全新颠覆性规则-the-mind-bending-new-rules-for-doing-business-in-china)
 - [鲍勃·艾格在迪士尼击败了纳尔逊·佩尔兹。现在怎么办？ (Bob Iger has defeated Nelson Peltz at Disney. Now what?)](#鲍勃艾格在迪士尼击败了纳尔逊佩尔兹现在怎么办-bob-iger-has-defeated-nelson-peltz-at-disney-now-what)
@@ -44,22 +50,26 @@ tag: [经济学人]
 - [看看这家平衡增长和绿色的法国石油巨头 (Meet the French oil major that balances growth and greenery)](#看看这家平衡增长和绿色的法国石油巨头-meet-the-french-oil-major-that-balances-growth-and-greenery)
 - [火灾演习的六条规定 (The six rules of fire drills)](#火灾演习的六条规定-the-six-rules-of-fire-drills)
 - [为什么日本公司不再受制于美国 (Why Japan Inc is no longer in thrall to America)](#为什么日本公司不再受制于美国-why-japan-inc-is-no-longer-in-thrall-to-america)
+
 #### 财经
 - [习近平如何计划超越美国 (How Xi Jinping plans to overtake America)](#习近平如何计划超越美国-how-xi-jinping-plans-to-overtake-america)
 - [美联储清理其印钞混乱 (The Federal Reserve cleans up its money-printing mess)](#美联储清理其印钞混乱-the-federal-reserve-cleans-up-its-money-printing-mess)
 - [FTX的客户将被偿还吗？ (Will FTX’s customers be repaid?)](#ftx的客户将被偿还吗-will-ftxs-customers-be-repaid)
 - [如何打造全球货币 (How to build a global currency)](#如何打造全球货币-how-to-build-a-global-currency)
 - [丹尼尔•卡尼曼是一个善于提出戏弄性问题的大师 (Daniel Kahneman was a master of teasing questions)](#丹尼尔卡尼曼是一个善于提出戏弄性问题的大师-daniel-kahneman-was-a-master-of-teasing-questions)
+
 #### 科技
 - [减肥药物可能会吞噬世界吗？ (Could weight-loss drugs eat the world?)](#减肥药物可能会吞噬世界吗-could-weight-loss-drugs-eat-the-world)
 - [为什么机器人应该更多地从植物中获取灵感 (Why robots should take more inspiration from plants)](#为什么机器人应该更多地从植物中获取灵感-why-robots-should-take-more-inspiration-from-plants)
 - [一场隐秘攻击险些威胁到全球电脑 (A stealth attack came close to compromising the world’s computers)](#一场隐秘攻击险些威胁到全球电脑-a-stealth-attack-came-close-to-compromising-the-worlds-computers)
+
 #### 文化
 - [21世纪的核战争会是什么样子？ (What would nuclear war look like in the 21st century?)](#21世纪的核战争会是什么样子-what-would-nuclear-war-look-like-in-the-21st-century)
 - [哥斯拉在其70岁生日当天，重新回到人们视野 (On his 70th birthday, Godzilla has roared back to relevance)](#哥斯拉在其70岁生日当天重新回到人们视野-on-his-70th-birthday-godzilla-has-roared-back-to-relevance)
 - [如何从《圣经》赚钱 (How to make money from the Bible)](#如何从圣经赚钱-how-to-make-money-from-the-bible)
 - [在英超联赛中，数据帮助小俱乐部挑战豪强 (In the Premier League, data help minor clubs take on the mighty)](#在英超联赛中数据帮助小俱乐部挑战豪强-in-the-premier-league-data-help-minor-clubs-take-on-the-mighty)
 - [保罗·卡加梅如何利用文化使卢旺达人保持一致 (How Paul Kagame uses culture to keep Rwandans on message)](#保罗卡加梅如何利用文化使卢旺达人保持一致-how-paul-kagame-uses-culture-to-keep-rwandans-on-message)
+
 
 <hr><span style="color: red;"><b>本周世界上</b></span> (The world this week)
 
